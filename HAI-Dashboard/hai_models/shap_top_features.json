@@ -1,0 +1,7602 @@
+{
+  "90": [
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.07828,
+      "direction": "toward normal",
+      "magnitude": 0.07828
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07452,
+      "direction": "toward normal",
+      "magnitude": 0.07452
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06414,
+      "direction": "toward normal",
+      "magnitude": 0.06414
+    },
+    {
+      "feature": "feat_P1_LIT01_mean10",
+      "shap_value": -0.05898,
+      "direction": "toward normal",
+      "magnitude": 0.05898
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05823,
+      "direction": "toward normal",
+      "magnitude": 0.05823
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05176,
+      "direction": "toward normal",
+      "magnitude": 0.05176
+    }
+  ],
+  "104": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.07901,
+      "direction": "toward normal",
+      "magnitude": 0.07901
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.0699,
+      "direction": "toward normal",
+      "magnitude": 0.0699
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06476,
+      "direction": "toward normal",
+      "magnitude": 0.06476
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05651,
+      "direction": "toward normal",
+      "magnitude": 0.05651
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05544,
+      "direction": "toward normal",
+      "magnitude": 0.05544
+    },
+    {
+      "feature": "feat_P1_LIT01_mean10",
+      "shap_value": -0.05262,
+      "direction": "toward normal",
+      "magnitude": 0.05262
+    }
+  ],
+  "109": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11135,
+      "direction": "toward normal",
+      "magnitude": 0.11135
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.0819,
+      "direction": "toward normal",
+      "magnitude": 0.0819
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06665,
+      "direction": "toward normal",
+      "magnitude": 0.06665
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05589,
+      "direction": "toward normal",
+      "magnitude": 0.05589
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05525,
+      "direction": "toward normal",
+      "magnitude": 0.05525
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05453,
+      "direction": "toward normal",
+      "magnitude": 0.05453
+    }
+  ],
+  "111": [
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.08306,
+      "direction": "toward normal",
+      "magnitude": 0.08306
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06175,
+      "direction": "toward normal",
+      "magnitude": 0.06175
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05618,
+      "direction": "toward normal",
+      "magnitude": 0.05618
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05616,
+      "direction": "toward normal",
+      "magnitude": 0.05616
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.0541,
+      "direction": "toward normal",
+      "magnitude": 0.0541
+    },
+    {
+      "feature": "feat_P1_LIT01_mean10",
+      "shap_value": -0.05267,
+      "direction": "toward normal",
+      "magnitude": 0.05267
+    }
+  ],
+  "113": [
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.07738,
+      "direction": "toward normal",
+      "magnitude": 0.07738
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0645,
+      "direction": "toward normal",
+      "magnitude": 0.0645
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05955,
+      "direction": "toward normal",
+      "magnitude": 0.05955
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05792,
+      "direction": "toward normal",
+      "magnitude": 0.05792
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05412,
+      "direction": "toward normal",
+      "magnitude": 0.05412
+    },
+    {
+      "feature": "feat_P1_LIT01_mean10",
+      "shap_value": -0.05269,
+      "direction": "toward normal",
+      "magnitude": 0.05269
+    }
+  ],
+  "116": [
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.0818,
+      "direction": "toward normal",
+      "magnitude": 0.0818
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07994,
+      "direction": "toward normal",
+      "magnitude": 0.07994
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06506,
+      "direction": "toward normal",
+      "magnitude": 0.06506
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05783,
+      "direction": "toward normal",
+      "magnitude": 0.05783
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05565,
+      "direction": "toward normal",
+      "magnitude": 0.05565
+    },
+    {
+      "feature": "feat_P1_LIT01_mean10",
+      "shap_value": -0.05455,
+      "direction": "toward normal",
+      "magnitude": 0.05455
+    }
+  ],
+  "117": [
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.08154,
+      "direction": "toward normal",
+      "magnitude": 0.08154
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06962,
+      "direction": "toward normal",
+      "magnitude": 0.06962
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06756,
+      "direction": "toward normal",
+      "magnitude": 0.06756
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05468,
+      "direction": "toward normal",
+      "magnitude": 0.05468
+    },
+    {
+      "feature": "feat_P1_LIT01_mean10",
+      "shap_value": -0.05385,
+      "direction": "toward normal",
+      "magnitude": 0.05385
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05375,
+      "direction": "toward normal",
+      "magnitude": 0.05375
+    }
+  ],
+  "153": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.08137,
+      "direction": "toward normal",
+      "magnitude": 0.08137
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.06996,
+      "direction": "toward normal",
+      "magnitude": 0.06996
+    },
+    {
+      "feature": "feat_roc_P1_FT03Z",
+      "shap_value": -0.06423,
+      "direction": "toward normal",
+      "magnitude": 0.06423
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05891,
+      "direction": "toward normal",
+      "magnitude": 0.05891
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.0581,
+      "direction": "toward normal",
+      "magnitude": 0.0581
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05304,
+      "direction": "toward normal",
+      "magnitude": 0.05304
+    }
+  ],
+  "155": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11664,
+      "direction": "toward normal",
+      "magnitude": 0.11664
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07347,
+      "direction": "toward normal",
+      "magnitude": 0.07347
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.07083,
+      "direction": "toward normal",
+      "magnitude": 0.07083
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05768,
+      "direction": "toward normal",
+      "magnitude": 0.05768
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05188,
+      "direction": "toward normal",
+      "magnitude": 0.05188
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.04845,
+      "direction": "toward normal",
+      "magnitude": 0.04845
+    }
+  ],
+  "156": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07049,
+      "direction": "toward normal",
+      "magnitude": 0.07049
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06646,
+      "direction": "toward normal",
+      "magnitude": 0.06646
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.06584,
+      "direction": "toward normal",
+      "magnitude": 0.06584
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06014,
+      "direction": "toward normal",
+      "magnitude": 0.06014
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05193,
+      "direction": "toward normal",
+      "magnitude": 0.05193
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04998,
+      "direction": "toward normal",
+      "magnitude": 0.04998
+    }
+  ],
+  "157": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07526,
+      "direction": "toward normal",
+      "magnitude": 0.07526
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.0702,
+      "direction": "toward normal",
+      "magnitude": 0.0702
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05793,
+      "direction": "toward normal",
+      "magnitude": 0.05793
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05293,
+      "direction": "toward normal",
+      "magnitude": 0.05293
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05105,
+      "direction": "toward normal",
+      "magnitude": 0.05105
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.04632,
+      "direction": "toward anomaly",
+      "magnitude": 0.04632
+    }
+  ],
+  "158": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07921,
+      "direction": "toward normal",
+      "magnitude": 0.07921
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06305,
+      "direction": "toward normal",
+      "magnitude": 0.06305
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.06217,
+      "direction": "toward normal",
+      "magnitude": 0.06217
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05317,
+      "direction": "toward normal",
+      "magnitude": 0.05317
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.052,
+      "direction": "toward normal",
+      "magnitude": 0.052
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.04754,
+      "direction": "toward normal",
+      "magnitude": 0.04754
+    }
+  ],
+  "159": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11701,
+      "direction": "toward normal",
+      "magnitude": 0.11701
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0725,
+      "direction": "toward normal",
+      "magnitude": 0.0725
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05513,
+      "direction": "toward normal",
+      "magnitude": 0.05513
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05376,
+      "direction": "toward normal",
+      "magnitude": 0.05376
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05336,
+      "direction": "toward normal",
+      "magnitude": 0.05336
+    },
+    {
+      "feature": "feat_roc_P2_SIT01",
+      "shap_value": -0.04932,
+      "direction": "toward normal",
+      "magnitude": 0.04932
+    }
+  ],
+  "160": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07802,
+      "direction": "toward normal",
+      "magnitude": 0.07802
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07749,
+      "direction": "toward normal",
+      "magnitude": 0.07749
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05723,
+      "direction": "toward normal",
+      "magnitude": 0.05723
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05472,
+      "direction": "toward normal",
+      "magnitude": 0.05472
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05326,
+      "direction": "toward normal",
+      "magnitude": 0.05326
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.0511,
+      "direction": "toward normal",
+      "magnitude": 0.0511
+    }
+  ],
+  "161": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07701,
+      "direction": "toward normal",
+      "magnitude": 0.07701
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06827,
+      "direction": "toward normal",
+      "magnitude": 0.06827
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05516,
+      "direction": "toward normal",
+      "magnitude": 0.05516
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05336,
+      "direction": "toward normal",
+      "magnitude": 0.05336
+    },
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.04961,
+      "direction": "toward normal",
+      "magnitude": 0.04961
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.04637,
+      "direction": "toward anomaly",
+      "magnitude": 0.04637
+    }
+  ],
+  "162": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07691,
+      "direction": "toward normal",
+      "magnitude": 0.07691
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06538,
+      "direction": "toward normal",
+      "magnitude": 0.06538
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.06166,
+      "direction": "toward normal",
+      "magnitude": 0.06166
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.0519,
+      "direction": "toward normal",
+      "magnitude": 0.0519
+    },
+    {
+      "feature": "feat_P1PC_cv_dev",
+      "shap_value": -0.0478,
+      "direction": "toward normal",
+      "magnitude": 0.0478
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.04451,
+      "direction": "toward normal",
+      "magnitude": 0.04451
+    }
+  ],
+  "163": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.08042,
+      "direction": "toward normal",
+      "magnitude": 0.08042
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06516,
+      "direction": "toward normal",
+      "magnitude": 0.06516
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.0546,
+      "direction": "toward normal",
+      "magnitude": 0.0546
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05312,
+      "direction": "toward normal",
+      "magnitude": 0.05312
+    },
+    {
+      "feature": "feat_P1PC_cv_dev",
+      "shap_value": -0.0491,
+      "direction": "toward normal",
+      "magnitude": 0.0491
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04783,
+      "direction": "toward normal",
+      "magnitude": 0.04783
+    }
+  ],
+  "164": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11078,
+      "direction": "toward normal",
+      "magnitude": 0.11078
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.08364,
+      "direction": "toward normal",
+      "magnitude": 0.08364
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05921,
+      "direction": "toward normal",
+      "magnitude": 0.05921
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.0537,
+      "direction": "toward normal",
+      "magnitude": 0.0537
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.04836,
+      "direction": "toward normal",
+      "magnitude": 0.04836
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04801,
+      "direction": "toward normal",
+      "magnitude": 0.04801
+    }
+  ],
+  "166": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07665,
+      "direction": "toward normal",
+      "magnitude": 0.07665
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06355,
+      "direction": "toward normal",
+      "magnitude": 0.06355
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.06105,
+      "direction": "toward normal",
+      "magnitude": 0.06105
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05077,
+      "direction": "toward normal",
+      "magnitude": 0.05077
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05076,
+      "direction": "toward normal",
+      "magnitude": 0.05076
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.04954,
+      "direction": "toward normal",
+      "magnitude": 0.04954
+    }
+  ],
+  "167": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.08486,
+      "direction": "toward normal",
+      "magnitude": 0.08486
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06243,
+      "direction": "toward normal",
+      "magnitude": 0.06243
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05821,
+      "direction": "toward normal",
+      "magnitude": 0.05821
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05188,
+      "direction": "toward normal",
+      "magnitude": 0.05188
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05137,
+      "direction": "toward normal",
+      "magnitude": 0.05137
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04972,
+      "direction": "toward normal",
+      "magnitude": 0.04972
+    }
+  ],
+  "168": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10668,
+      "direction": "toward normal",
+      "magnitude": 0.10668
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0802,
+      "direction": "toward normal",
+      "magnitude": 0.0802
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05753,
+      "direction": "toward normal",
+      "magnitude": 0.05753
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05072,
+      "direction": "toward normal",
+      "magnitude": 0.05072
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.04962,
+      "direction": "toward normal",
+      "magnitude": 0.04962
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.04715,
+      "direction": "toward normal",
+      "magnitude": 0.04715
+    }
+  ],
+  "219": [
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.09142,
+      "direction": "toward normal",
+      "magnitude": 0.09142
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.08074,
+      "direction": "toward normal",
+      "magnitude": 0.08074
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07199,
+      "direction": "toward normal",
+      "magnitude": 0.07199
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06277,
+      "direction": "toward normal",
+      "magnitude": 0.06277
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05759,
+      "direction": "toward normal",
+      "magnitude": 0.05759
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.04775,
+      "direction": "toward normal",
+      "magnitude": 0.04775
+    }
+  ],
+  "220": [
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.12116,
+      "direction": "toward normal",
+      "magnitude": 0.12116
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.07549,
+      "direction": "toward normal",
+      "magnitude": 0.07549
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07169,
+      "direction": "toward normal",
+      "magnitude": 0.07169
+    },
+    {
+      "feature": "feat_roc_P1_FT03Z",
+      "shap_value": -0.06537,
+      "direction": "toward normal",
+      "magnitude": 0.06537
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06423,
+      "direction": "toward normal",
+      "magnitude": 0.06423
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06378,
+      "direction": "toward normal",
+      "magnitude": 0.06378
+    }
+  ],
+  "221": [
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.08989,
+      "direction": "toward normal",
+      "magnitude": 0.08989
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.07304,
+      "direction": "toward normal",
+      "magnitude": 0.07304
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06939,
+      "direction": "toward normal",
+      "magnitude": 0.06939
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05851,
+      "direction": "toward normal",
+      "magnitude": 0.05851
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05727,
+      "direction": "toward normal",
+      "magnitude": 0.05727
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.04783,
+      "direction": "toward normal",
+      "magnitude": 0.04783
+    }
+  ],
+  "222": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0673,
+      "direction": "toward normal",
+      "magnitude": 0.0673
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05973,
+      "direction": "toward normal",
+      "magnitude": 0.05973
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05687,
+      "direction": "toward normal",
+      "magnitude": 0.05687
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.05676,
+      "direction": "toward normal",
+      "magnitude": 0.05676
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05257,
+      "direction": "toward anomaly",
+      "magnitude": 0.05257
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.05,
+      "direction": "toward normal",
+      "magnitude": 0.05
+    }
+  ],
+  "225": [
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.07821,
+      "direction": "toward normal",
+      "magnitude": 0.07821
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07217,
+      "direction": "toward normal",
+      "magnitude": 0.07217
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05727,
+      "direction": "toward normal",
+      "magnitude": 0.05727
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05281,
+      "direction": "toward normal",
+      "magnitude": 0.05281
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.0508,
+      "direction": "toward anomaly",
+      "magnitude": 0.0508
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.04924,
+      "direction": "toward normal",
+      "magnitude": 0.04924
+    }
+  ],
+  "226": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.20801,
+      "direction": "toward normal",
+      "magnitude": 0.20801
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.07411,
+      "direction": "toward normal",
+      "magnitude": 0.07411
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07195,
+      "direction": "toward normal",
+      "magnitude": 0.07195
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06125,
+      "direction": "toward normal",
+      "magnitude": 0.06125
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05835,
+      "direction": "toward normal",
+      "magnitude": 0.05835
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.0505,
+      "direction": "toward normal",
+      "magnitude": 0.0505
+    }
+  ],
+  "227": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.08597,
+      "direction": "toward normal",
+      "magnitude": 0.08597
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.07476,
+      "direction": "toward normal",
+      "magnitude": 0.07476
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07215,
+      "direction": "toward normal",
+      "magnitude": 0.07215
+    },
+    {
+      "feature": "feat_roc_P1_FT01Z",
+      "shap_value": -0.06379,
+      "direction": "toward normal",
+      "magnitude": 0.06379
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05865,
+      "direction": "toward normal",
+      "magnitude": 0.05865
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05444,
+      "direction": "toward normal",
+      "magnitude": 0.05444
+    }
+  ],
+  "228": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08053,
+      "direction": "toward normal",
+      "magnitude": 0.08053
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07419,
+      "direction": "toward normal",
+      "magnitude": 0.07419
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05343,
+      "direction": "toward normal",
+      "magnitude": 0.05343
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05241,
+      "direction": "toward anomaly",
+      "magnitude": 0.05241
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05077,
+      "direction": "toward normal",
+      "magnitude": 0.05077
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.04585,
+      "direction": "toward normal",
+      "magnitude": 0.04585
+    }
+  ],
+  "229": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06949,
+      "direction": "toward normal",
+      "magnitude": 0.06949
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.0513,
+      "direction": "toward normal",
+      "magnitude": 0.0513
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05065,
+      "direction": "toward normal",
+      "magnitude": 0.05065
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.04996,
+      "direction": "toward normal",
+      "magnitude": 0.04996
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.04868,
+      "direction": "toward anomaly",
+      "magnitude": 0.04868
+    },
+    {
+      "feature": "feat_P1_FT01Z_std30",
+      "shap_value": -0.04774,
+      "direction": "toward normal",
+      "magnitude": 0.04774
+    }
+  ],
+  "230": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06762,
+      "direction": "toward normal",
+      "magnitude": 0.06762
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05336,
+      "direction": "toward normal",
+      "magnitude": 0.05336
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05185,
+      "direction": "toward anomaly",
+      "magnitude": 0.05185
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05046,
+      "direction": "toward normal",
+      "magnitude": 0.05046
+    },
+    {
+      "feature": "feat_P1_FT01Z_std30",
+      "shap_value": -0.04731,
+      "direction": "toward normal",
+      "magnitude": 0.04731
+    },
+    {
+      "feature": "P4_ST_PO",
+      "shap_value": -0.04542,
+      "direction": "toward normal",
+      "magnitude": 0.04542
+    }
+  ],
+  "231": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07128,
+      "direction": "toward normal",
+      "magnitude": 0.07128
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.0553,
+      "direction": "toward normal",
+      "magnitude": 0.0553
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05225,
+      "direction": "toward anomaly",
+      "magnitude": 0.05225
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05039,
+      "direction": "toward normal",
+      "magnitude": 0.05039
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04947,
+      "direction": "toward normal",
+      "magnitude": 0.04947
+    },
+    {
+      "feature": "feat_P1_FT01Z_std30",
+      "shap_value": -0.04825,
+      "direction": "toward normal",
+      "magnitude": 0.04825
+    }
+  ],
+  "232": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12201,
+      "direction": "toward normal",
+      "magnitude": 0.12201
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07185,
+      "direction": "toward normal",
+      "magnitude": 0.07185
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05322,
+      "direction": "toward normal",
+      "magnitude": 0.05322
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.0519,
+      "direction": "toward normal",
+      "magnitude": 0.0519
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05094,
+      "direction": "toward anomaly",
+      "magnitude": 0.05094
+    },
+    {
+      "feature": "feat_P1_FT01Z_std30",
+      "shap_value": -0.04993,
+      "direction": "toward normal",
+      "magnitude": 0.04993
+    }
+  ],
+  "233": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07046,
+      "direction": "toward normal",
+      "magnitude": 0.07046
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05918,
+      "direction": "toward normal",
+      "magnitude": 0.05918
+    },
+    {
+      "feature": "feat_P1_FT01Z_std30",
+      "shap_value": -0.05546,
+      "direction": "toward normal",
+      "magnitude": 0.05546
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05255,
+      "direction": "toward normal",
+      "magnitude": 0.05255
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05232,
+      "direction": "toward normal",
+      "magnitude": 0.05232
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05166,
+      "direction": "toward normal",
+      "magnitude": 0.05166
+    }
+  ],
+  "234": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07635,
+      "direction": "toward normal",
+      "magnitude": 0.07635
+    },
+    {
+      "feature": "feat_P1_FT01Z_std30",
+      "shap_value": -0.05612,
+      "direction": "toward normal",
+      "magnitude": 0.05612
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05224,
+      "direction": "toward normal",
+      "magnitude": 0.05224
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.04971,
+      "direction": "toward normal",
+      "magnitude": 0.04971
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.0497,
+      "direction": "toward anomaly",
+      "magnitude": 0.0497
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.04855,
+      "direction": "toward normal",
+      "magnitude": 0.04855
+    }
+  ],
+  "235": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06913,
+      "direction": "toward normal",
+      "magnitude": 0.06913
+    },
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.05706,
+      "direction": "toward normal",
+      "magnitude": 0.05706
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05184,
+      "direction": "toward normal",
+      "magnitude": 0.05184
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05154,
+      "direction": "toward normal",
+      "magnitude": 0.05154
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.0494,
+      "direction": "toward normal",
+      "magnitude": 0.0494
+    },
+    {
+      "feature": "feat_P1_FT01Z_std30",
+      "shap_value": -0.04747,
+      "direction": "toward normal",
+      "magnitude": 0.04747
+    }
+  ],
+  "236": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06624,
+      "direction": "toward normal",
+      "magnitude": 0.06624
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05804,
+      "direction": "toward normal",
+      "magnitude": 0.05804
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05533,
+      "direction": "toward normal",
+      "magnitude": 0.05533
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05231,
+      "direction": "toward normal",
+      "magnitude": 0.05231
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.04957,
+      "direction": "toward anomaly",
+      "magnitude": 0.04957
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04791,
+      "direction": "toward normal",
+      "magnitude": 0.04791
+    }
+  ],
+  "237": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11777,
+      "direction": "toward normal",
+      "magnitude": 0.11777
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0692,
+      "direction": "toward normal",
+      "magnitude": 0.0692
+    },
+    {
+      "feature": "feat_roc_P1_FT01Z",
+      "shap_value": -0.06904,
+      "direction": "toward normal",
+      "magnitude": 0.06904
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05306,
+      "direction": "toward normal",
+      "magnitude": 0.05306
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05112,
+      "direction": "toward normal",
+      "magnitude": 0.05112
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05025,
+      "direction": "toward anomaly",
+      "magnitude": 0.05025
+    }
+  ],
+  "238": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06652,
+      "direction": "toward normal",
+      "magnitude": 0.06652
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06046,
+      "direction": "toward normal",
+      "magnitude": 0.06046
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.0525,
+      "direction": "toward normal",
+      "magnitude": 0.0525
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05228,
+      "direction": "toward normal",
+      "magnitude": 0.05228
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05192,
+      "direction": "toward normal",
+      "magnitude": 0.05192
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.04808,
+      "direction": "toward anomaly",
+      "magnitude": 0.04808
+    }
+  ],
+  "239": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07068,
+      "direction": "toward normal",
+      "magnitude": 0.07068
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.0552,
+      "direction": "toward normal",
+      "magnitude": 0.0552
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05348,
+      "direction": "toward normal",
+      "magnitude": 0.05348
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05254,
+      "direction": "toward normal",
+      "magnitude": 0.05254
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.0518,
+      "direction": "toward normal",
+      "magnitude": 0.0518
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.04834,
+      "direction": "toward anomaly",
+      "magnitude": 0.04834
+    }
+  ],
+  "240": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07684,
+      "direction": "toward normal",
+      "magnitude": 0.07684
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.0542,
+      "direction": "toward normal",
+      "magnitude": 0.0542
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05196,
+      "direction": "toward normal",
+      "magnitude": 0.05196
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05153,
+      "direction": "toward normal",
+      "magnitude": 0.05153
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05139,
+      "direction": "toward anomaly",
+      "magnitude": 0.05139
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05009,
+      "direction": "toward normal",
+      "magnitude": 0.05009
+    }
+  ],
+  "241": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11307,
+      "direction": "toward normal",
+      "magnitude": 0.11307
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07268,
+      "direction": "toward normal",
+      "magnitude": 0.07268
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.0535,
+      "direction": "toward normal",
+      "magnitude": 0.0535
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.05156,
+      "direction": "toward normal",
+      "magnitude": 0.05156
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05121,
+      "direction": "toward normal",
+      "magnitude": 0.05121
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.04947,
+      "direction": "toward normal",
+      "magnitude": 0.04947
+    }
+  ],
+  "242": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06738,
+      "direction": "toward normal",
+      "magnitude": 0.06738
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06295,
+      "direction": "toward normal",
+      "magnitude": 0.06295
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05584,
+      "direction": "toward normal",
+      "magnitude": 0.05584
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.0512,
+      "direction": "toward normal",
+      "magnitude": 0.0512
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.05091,
+      "direction": "toward normal",
+      "magnitude": 0.05091
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04694,
+      "direction": "toward normal",
+      "magnitude": 0.04694
+    }
+  ],
+  "243": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07404,
+      "direction": "toward normal",
+      "magnitude": 0.07404
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.05986,
+      "direction": "toward normal",
+      "magnitude": 0.05986
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.05529,
+      "direction": "toward normal",
+      "magnitude": 0.05529
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05478,
+      "direction": "toward normal",
+      "magnitude": 0.05478
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05271,
+      "direction": "toward normal",
+      "magnitude": 0.05271
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05008,
+      "direction": "toward normal",
+      "magnitude": 0.05008
+    }
+  ],
+  "244": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07498,
+      "direction": "toward normal",
+      "magnitude": 0.07498
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05719,
+      "direction": "toward normal",
+      "magnitude": 0.05719
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05638,
+      "direction": "toward normal",
+      "magnitude": 0.05638
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.05509,
+      "direction": "toward normal",
+      "magnitude": 0.05509
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.0496,
+      "direction": "toward anomaly",
+      "magnitude": 0.0496
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.04696,
+      "direction": "toward normal",
+      "magnitude": 0.04696
+    }
+  ],
+  "245": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07121,
+      "direction": "toward normal",
+      "magnitude": 0.07121
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05792,
+      "direction": "toward normal",
+      "magnitude": 0.05792
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.05476,
+      "direction": "toward normal",
+      "magnitude": 0.05476
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.0525,
+      "direction": "toward normal",
+      "magnitude": 0.0525
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05056,
+      "direction": "toward anomaly",
+      "magnitude": 0.05056
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.04905,
+      "direction": "toward normal",
+      "magnitude": 0.04905
+    }
+  ],
+  "246": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10304,
+      "direction": "toward normal",
+      "magnitude": 0.10304
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.10222,
+      "direction": "toward normal",
+      "magnitude": 0.10222
+    },
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.09369,
+      "direction": "toward normal",
+      "magnitude": 0.09369
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06869,
+      "direction": "toward normal",
+      "magnitude": 0.06869
+    },
+    {
+      "feature": "feat_roc_P1_FT01Z",
+      "shap_value": -0.067,
+      "direction": "toward normal",
+      "magnitude": 0.067
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.06078,
+      "direction": "toward normal",
+      "magnitude": 0.06078
+    }
+  ],
+  "247": [
+    {
+      "feature": "P4_ST_FD",
+      "shap_value": -0.14463,
+      "direction": "toward normal",
+      "magnitude": 0.14463
+    },
+    {
+      "feature": "P4_HT_FD",
+      "shap_value": -0.09423,
+      "direction": "toward normal",
+      "magnitude": 0.09423
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.08367,
+      "direction": "toward normal",
+      "magnitude": 0.08367
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07029,
+      "direction": "toward normal",
+      "magnitude": 0.07029
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0641,
+      "direction": "toward normal",
+      "magnitude": 0.0641
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.05901,
+      "direction": "toward normal",
+      "magnitude": 0.05901
+    }
+  ],
+  "248": [
+    {
+      "feature": "P4_HT_FD",
+      "shap_value": -0.08014,
+      "direction": "toward normal",
+      "magnitude": 0.08014
+    },
+    {
+      "feature": "P4_ST_FD",
+      "shap_value": -0.07923,
+      "direction": "toward normal",
+      "magnitude": 0.07923
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07239,
+      "direction": "toward normal",
+      "magnitude": 0.07239
+    },
+    {
+      "feature": "feat_roc_P1_FT01Z",
+      "shap_value": -0.06644,
+      "direction": "toward normal",
+      "magnitude": 0.06644
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.06141,
+      "direction": "toward normal",
+      "magnitude": 0.06141
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05667,
+      "direction": "toward normal",
+      "magnitude": 0.05667
+    }
+  ],
+  "249": [
+    {
+      "feature": "P4_HT_FD",
+      "shap_value": -0.07858,
+      "direction": "toward normal",
+      "magnitude": 0.07858
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07521,
+      "direction": "toward normal",
+      "magnitude": 0.07521
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05745,
+      "direction": "toward normal",
+      "magnitude": 0.05745
+    },
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.05623,
+      "direction": "toward normal",
+      "magnitude": 0.05623
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.05543,
+      "direction": "toward normal",
+      "magnitude": 0.05543
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05511,
+      "direction": "toward normal",
+      "magnitude": 0.05511
+    }
+  ],
+  "250": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08549,
+      "direction": "toward normal",
+      "magnitude": 0.08549
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06815,
+      "direction": "toward normal",
+      "magnitude": 0.06815
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.05827,
+      "direction": "toward normal",
+      "magnitude": 0.05827
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05626,
+      "direction": "toward normal",
+      "magnitude": 0.05626
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.05304,
+      "direction": "toward normal",
+      "magnitude": 0.05304
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.04964,
+      "direction": "toward normal",
+      "magnitude": 0.04964
+    }
+  ],
+  "251": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11448,
+      "direction": "toward normal",
+      "magnitude": 0.11448
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06455,
+      "direction": "toward normal",
+      "magnitude": 0.06455
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05306,
+      "direction": "toward normal",
+      "magnitude": 0.05306
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05042,
+      "direction": "toward normal",
+      "magnitude": 0.05042
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.04722,
+      "direction": "toward normal",
+      "magnitude": 0.04722
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.04395,
+      "direction": "toward normal",
+      "magnitude": 0.04395
+    }
+  ],
+  "252": [
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.06938,
+      "direction": "toward normal",
+      "magnitude": 0.06938
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0689,
+      "direction": "toward normal",
+      "magnitude": 0.0689
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06621,
+      "direction": "toward normal",
+      "magnitude": 0.06621
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.0529,
+      "direction": "toward normal",
+      "magnitude": 0.0529
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05114,
+      "direction": "toward normal",
+      "magnitude": 0.05114
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.04969,
+      "direction": "toward normal",
+      "magnitude": 0.04969
+    }
+  ],
+  "253": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07351,
+      "direction": "toward normal",
+      "magnitude": 0.07351
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05631,
+      "direction": "toward normal",
+      "magnitude": 0.05631
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.0529,
+      "direction": "toward normal",
+      "magnitude": 0.0529
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05075,
+      "direction": "toward anomaly",
+      "magnitude": 0.05075
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.04951,
+      "direction": "toward normal",
+      "magnitude": 0.04951
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04832,
+      "direction": "toward normal",
+      "magnitude": 0.04832
+    }
+  ],
+  "254": [
+    {
+      "feature": "feat_roc_P1_FT01Z",
+      "shap_value": -0.08733,
+      "direction": "toward normal",
+      "magnitude": 0.08733
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07281,
+      "direction": "toward normal",
+      "magnitude": 0.07281
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05862,
+      "direction": "toward normal",
+      "magnitude": 0.05862
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05787,
+      "direction": "toward normal",
+      "magnitude": 0.05787
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05265,
+      "direction": "toward normal",
+      "magnitude": 0.05265
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05256,
+      "direction": "toward anomaly",
+      "magnitude": 0.05256
+    }
+  ],
+  "255": [
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.06923,
+      "direction": "toward normal",
+      "magnitude": 0.06923
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06475,
+      "direction": "toward normal",
+      "magnitude": 0.06475
+    },
+    {
+      "feature": "P4_ST_FD",
+      "shap_value": -0.06149,
+      "direction": "toward normal",
+      "magnitude": 0.06149
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.06074,
+      "direction": "toward normal",
+      "magnitude": 0.06074
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05838,
+      "direction": "toward normal",
+      "magnitude": 0.05838
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05752,
+      "direction": "toward normal",
+      "magnitude": 0.05752
+    }
+  ],
+  "256": [
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.07475,
+      "direction": "toward normal",
+      "magnitude": 0.07475
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06741,
+      "direction": "toward normal",
+      "magnitude": 0.06741
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06527,
+      "direction": "toward normal",
+      "magnitude": 0.06527
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05495,
+      "direction": "toward normal",
+      "magnitude": 0.05495
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05194,
+      "direction": "toward anomaly",
+      "magnitude": 0.05194
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04871,
+      "direction": "toward normal",
+      "magnitude": 0.04871
+    }
+  ],
+  "257": [
+    {
+      "feature": "feat_roc_P2_SIT01",
+      "shap_value": -0.10328,
+      "direction": "toward normal",
+      "magnitude": 0.10328
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07311,
+      "direction": "toward normal",
+      "magnitude": 0.07311
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.07141,
+      "direction": "toward normal",
+      "magnitude": 0.07141
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.05816,
+      "direction": "toward normal",
+      "magnitude": 0.05816
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05629,
+      "direction": "toward normal",
+      "magnitude": 0.05629
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05288,
+      "direction": "toward anomaly",
+      "magnitude": 0.05288
+    }
+  ],
+  "258": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07292,
+      "direction": "toward normal",
+      "magnitude": 0.07292
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06714,
+      "direction": "toward normal",
+      "magnitude": 0.06714
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05594,
+      "direction": "toward normal",
+      "magnitude": 0.05594
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05276,
+      "direction": "toward anomaly",
+      "magnitude": 0.05276
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05132,
+      "direction": "toward normal",
+      "magnitude": 0.05132
+    },
+    {
+      "feature": "x1002_07_SETPOINT_OUT",
+      "shap_value": -0.05127,
+      "direction": "toward normal",
+      "magnitude": 0.05127
+    }
+  ],
+  "259": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07037,
+      "direction": "toward normal",
+      "magnitude": 0.07037
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06592,
+      "direction": "toward normal",
+      "magnitude": 0.06592
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.06098,
+      "direction": "toward normal",
+      "magnitude": 0.06098
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05392,
+      "direction": "toward anomaly",
+      "magnitude": 0.05392
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05234,
+      "direction": "toward normal",
+      "magnitude": 0.05234
+    },
+    {
+      "feature": "P4_ST_FD",
+      "shap_value": -0.05,
+      "direction": "toward normal",
+      "magnitude": 0.05
+    }
+  ],
+  "260": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06555,
+      "direction": "toward normal",
+      "magnitude": 0.06555
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06281,
+      "direction": "toward normal",
+      "magnitude": 0.06281
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06094,
+      "direction": "toward normal",
+      "magnitude": 0.06094
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.05827,
+      "direction": "toward normal",
+      "magnitude": 0.05827
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05561,
+      "direction": "toward normal",
+      "magnitude": 0.05561
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05389,
+      "direction": "toward anomaly",
+      "magnitude": 0.05389
+    }
+  ],
+  "261": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07455,
+      "direction": "toward normal",
+      "magnitude": 0.07455
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06047,
+      "direction": "toward normal",
+      "magnitude": 0.06047
+    },
+    {
+      "feature": "P2_24Vdc",
+      "shap_value": -0.0598,
+      "direction": "toward normal",
+      "magnitude": 0.0598
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05937,
+      "direction": "toward normal",
+      "magnitude": 0.05937
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05476,
+      "direction": "toward normal",
+      "magnitude": 0.05476
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05206,
+      "direction": "toward anomaly",
+      "magnitude": 0.05206
+    }
+  ],
+  "262": [
+    {
+      "feature": "feat_roc_P2_SIT01",
+      "shap_value": -0.10651,
+      "direction": "toward normal",
+      "magnitude": 0.10651
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07755,
+      "direction": "toward normal",
+      "magnitude": 0.07755
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.0716,
+      "direction": "toward normal",
+      "magnitude": 0.0716
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05494,
+      "direction": "toward normal",
+      "magnitude": 0.05494
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05191,
+      "direction": "toward anomaly",
+      "magnitude": 0.05191
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05116,
+      "direction": "toward normal",
+      "magnitude": 0.05116
+    }
+  ],
+  "263": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.08029,
+      "direction": "toward normal",
+      "magnitude": 0.08029
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06583,
+      "direction": "toward normal",
+      "magnitude": 0.06583
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.0544,
+      "direction": "toward normal",
+      "magnitude": 0.0544
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05126,
+      "direction": "toward normal",
+      "magnitude": 0.05126
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05114,
+      "direction": "toward anomaly",
+      "magnitude": 0.05114
+    },
+    {
+      "feature": "feat_P1PC_cv_dev",
+      "shap_value": -0.04541,
+      "direction": "toward normal",
+      "magnitude": 0.04541
+    }
+  ],
+  "264": [
+    {
+      "feature": "feat_roc_P2_SIT01",
+      "shap_value": -0.10568,
+      "direction": "toward normal",
+      "magnitude": 0.10568
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.07552,
+      "direction": "toward normal",
+      "magnitude": 0.07552
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06751,
+      "direction": "toward normal",
+      "magnitude": 0.06751
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06419,
+      "direction": "toward normal",
+      "magnitude": 0.06419
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05827,
+      "direction": "toward normal",
+      "magnitude": 0.05827
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05152,
+      "direction": "toward normal",
+      "magnitude": 0.05152
+    }
+  ],
+  "265": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07339,
+      "direction": "toward normal",
+      "magnitude": 0.07339
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07174,
+      "direction": "toward normal",
+      "magnitude": 0.07174
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05575,
+      "direction": "toward normal",
+      "magnitude": 0.05575
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.05563,
+      "direction": "toward normal",
+      "magnitude": 0.05563
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05527,
+      "direction": "toward normal",
+      "magnitude": 0.05527
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.04888,
+      "direction": "toward normal",
+      "magnitude": 0.04888
+    }
+  ],
+  "266": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07332,
+      "direction": "toward normal",
+      "magnitude": 0.07332
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06681,
+      "direction": "toward normal",
+      "magnitude": 0.06681
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05686,
+      "direction": "toward normal",
+      "magnitude": 0.05686
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05491,
+      "direction": "toward normal",
+      "magnitude": 0.05491
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05326,
+      "direction": "toward normal",
+      "magnitude": 0.05326
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05098,
+      "direction": "toward anomaly",
+      "magnitude": 0.05098
+    }
+  ],
+  "267": [
+    {
+      "feature": "feat_roc_P1_FT01Z",
+      "shap_value": -0.07535,
+      "direction": "toward normal",
+      "magnitude": 0.07535
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.07343,
+      "direction": "toward normal",
+      "magnitude": 0.07343
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0707,
+      "direction": "toward normal",
+      "magnitude": 0.0707
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05961,
+      "direction": "toward normal",
+      "magnitude": 0.05961
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05364,
+      "direction": "toward normal",
+      "magnitude": 0.05364
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.05133,
+      "direction": "toward normal",
+      "magnitude": 0.05133
+    }
+  ],
+  "268": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06969,
+      "direction": "toward normal",
+      "magnitude": 0.06969
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06873,
+      "direction": "toward normal",
+      "magnitude": 0.06873
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05563,
+      "direction": "toward normal",
+      "magnitude": 0.05563
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05215,
+      "direction": "toward normal",
+      "magnitude": 0.05215
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.04856,
+      "direction": "toward anomaly",
+      "magnitude": 0.04856
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.04665,
+      "direction": "toward normal",
+      "magnitude": 0.04665
+    }
+  ],
+  "269": [
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06965,
+      "direction": "toward normal",
+      "magnitude": 0.06965
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06715,
+      "direction": "toward normal",
+      "magnitude": 0.06715
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05485,
+      "direction": "toward normal",
+      "magnitude": 0.05485
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05252,
+      "direction": "toward normal",
+      "magnitude": 0.05252
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.0499,
+      "direction": "toward anomaly",
+      "magnitude": 0.0499
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.04622,
+      "direction": "toward normal",
+      "magnitude": 0.04622
+    }
+  ],
+  "270": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07403,
+      "direction": "toward normal",
+      "magnitude": 0.07403
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06887,
+      "direction": "toward normal",
+      "magnitude": 0.06887
+    },
+    {
+      "feature": "feat_roc_P1_FT03Z",
+      "shap_value": -0.0683,
+      "direction": "toward normal",
+      "magnitude": 0.0683
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05798,
+      "direction": "toward normal",
+      "magnitude": 0.05798
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.05744,
+      "direction": "toward normal",
+      "magnitude": 0.05744
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05321,
+      "direction": "toward normal",
+      "magnitude": 0.05321
+    }
+  ],
+  "271": [
+    {
+      "feature": "feat_roc_P1_FT03Z",
+      "shap_value": -0.09304,
+      "direction": "toward normal",
+      "magnitude": 0.09304
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07157,
+      "direction": "toward normal",
+      "magnitude": 0.07157
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06565,
+      "direction": "toward normal",
+      "magnitude": 0.06565
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.06467,
+      "direction": "toward normal",
+      "magnitude": 0.06467
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06192,
+      "direction": "toward normal",
+      "magnitude": 0.06192
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.0573,
+      "direction": "toward normal",
+      "magnitude": 0.0573
+    }
+  ],
+  "272": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.071,
+      "direction": "toward normal",
+      "magnitude": 0.071
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06944,
+      "direction": "toward normal",
+      "magnitude": 0.06944
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.06664,
+      "direction": "toward normal",
+      "magnitude": 0.06664
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05809,
+      "direction": "toward normal",
+      "magnitude": 0.05809
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05702,
+      "direction": "toward normal",
+      "magnitude": 0.05702
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05125,
+      "direction": "toward anomaly",
+      "magnitude": 0.05125
+    }
+  ],
+  "273": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0715,
+      "direction": "toward normal",
+      "magnitude": 0.0715
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05688,
+      "direction": "toward normal",
+      "magnitude": 0.05688
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05513,
+      "direction": "toward normal",
+      "magnitude": 0.05513
+    },
+    {
+      "feature": "P1_LIT01",
+      "shap_value": -0.05152,
+      "direction": "toward normal",
+      "magnitude": 0.05152
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05146,
+      "direction": "toward anomaly",
+      "magnitude": 0.05146
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.04691,
+      "direction": "toward normal",
+      "magnitude": 0.04691
+    }
+  ],
+  "274": [
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07077,
+      "direction": "toward normal",
+      "magnitude": 0.07077
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.06402,
+      "direction": "toward normal",
+      "magnitude": 0.06402
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06331,
+      "direction": "toward normal",
+      "magnitude": 0.06331
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05807,
+      "direction": "toward normal",
+      "magnitude": 0.05807
+    },
+    {
+      "feature": "feat_P1_LIT01_mean60",
+      "shap_value": -0.05303,
+      "direction": "toward normal",
+      "magnitude": 0.05303
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05135,
+      "direction": "toward anomaly",
+      "magnitude": 0.05135
+    }
+  ],
+  "275": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11078,
+      "direction": "toward normal",
+      "magnitude": 0.11078
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06499,
+      "direction": "toward normal",
+      "magnitude": 0.06499
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.06349,
+      "direction": "toward normal",
+      "magnitude": 0.06349
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05427,
+      "direction": "toward normal",
+      "magnitude": 0.05427
+    },
+    {
+      "feature": "feat_valve_P1_LCV01D",
+      "shap_value": -0.05288,
+      "direction": "toward normal",
+      "magnitude": 0.05288
+    },
+    {
+      "feature": "P1_FCV02D",
+      "shap_value": 0.05282,
+      "direction": "toward anomaly",
+      "magnitude": 0.05282
+    }
+  ],
+  "276": [
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.07251,
+      "direction": "toward normal",
+      "magnitude": 0.07251
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07023,
+      "direction": "toward normal",
+      "magnitude": 0.07023
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06846,
+      "direction": "toward normal",
+      "magnitude": 0.06846
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05238,
+      "direction": "toward normal",
+      "magnitude": 0.05238
+    },
+    {
+      "feature": "feat_valve_P1_LCV01D",
+      "shap_value": -0.05214,
+      "direction": "toward normal",
+      "magnitude": 0.05214
+    },
+    {
+      "feature": "feat_P1_PIT01_max60",
+      "shap_value": -0.04947,
+      "direction": "toward normal",
+      "magnitude": 0.04947
+    }
+  ],
+  "277": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.08187,
+      "direction": "toward normal",
+      "magnitude": 0.08187
+    },
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.08056,
+      "direction": "toward normal",
+      "magnitude": 0.08056
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06565,
+      "direction": "toward normal",
+      "magnitude": 0.06565
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.06552,
+      "direction": "toward normal",
+      "magnitude": 0.06552
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05554,
+      "direction": "toward normal",
+      "magnitude": 0.05554
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.05522,
+      "direction": "toward normal",
+      "magnitude": 0.05522
+    }
+  ],
+  "278": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.21834,
+      "direction": "toward normal",
+      "magnitude": 0.21834
+    },
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.08681,
+      "direction": "toward normal",
+      "magnitude": 0.08681
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.07425,
+      "direction": "toward normal",
+      "magnitude": 0.07425
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.07243,
+      "direction": "toward normal",
+      "magnitude": 0.07243
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.06828,
+      "direction": "toward normal",
+      "magnitude": 0.06828
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05705,
+      "direction": "toward normal",
+      "magnitude": 0.05705
+    }
+  ],
+  "279": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.22474,
+      "direction": "toward normal",
+      "magnitude": 0.22474
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.1568,
+      "direction": "toward normal",
+      "magnitude": 0.1568
+    },
+    {
+      "feature": "feat_roc_P1_FT01",
+      "shap_value": -0.09536,
+      "direction": "toward normal",
+      "magnitude": 0.09536
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06738,
+      "direction": "toward normal",
+      "magnitude": 0.06738
+    },
+    {
+      "feature": "feat_roc_P1_FT03Z",
+      "shap_value": -0.06552,
+      "direction": "toward normal",
+      "magnitude": 0.06552
+    },
+    {
+      "feature": "feat_P1_LIT01_max10",
+      "shap_value": -0.06142,
+      "direction": "toward normal",
+      "magnitude": 0.06142
+    }
+  ],
+  "280": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.20638,
+      "direction": "toward normal",
+      "magnitude": 0.20638
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.17979,
+      "direction": "toward normal",
+      "magnitude": 0.17979
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.16979,
+      "direction": "toward normal",
+      "magnitude": 0.16979
+    },
+    {
+      "feature": "feat_P1_PIT01_std10",
+      "shap_value": -0.11969,
+      "direction": "toward normal",
+      "magnitude": 0.11969
+    },
+    {
+      "feature": "P4_ST_FD",
+      "shap_value": -0.08155,
+      "direction": "toward normal",
+      "magnitude": 0.08155
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.08139,
+      "direction": "toward normal",
+      "magnitude": 0.08139
+    }
+  ],
+  "712": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.11834,
+      "direction": "toward normal",
+      "magnitude": 0.11834
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.10428,
+      "direction": "toward normal",
+      "magnitude": 0.10428
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.09559,
+      "direction": "toward normal",
+      "magnitude": 0.09559
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08739,
+      "direction": "toward normal",
+      "magnitude": 0.08739
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.08708,
+      "direction": "toward normal",
+      "magnitude": 0.08708
+    },
+    {
+      "feature": "feat_P1_LIT01_std60",
+      "shap_value": -0.08009,
+      "direction": "toward normal",
+      "magnitude": 0.08009
+    }
+  ],
+  "720": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.16408,
+      "direction": "toward normal",
+      "magnitude": 0.16408
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.0965,
+      "direction": "toward normal",
+      "magnitude": 0.0965
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.09142,
+      "direction": "toward normal",
+      "magnitude": 0.09142
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.08665,
+      "direction": "toward normal",
+      "magnitude": 0.08665
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08312,
+      "direction": "toward normal",
+      "magnitude": 0.08312
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.08244,
+      "direction": "toward normal",
+      "magnitude": 0.08244
+    }
+  ],
+  "721": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.15435,
+      "direction": "toward normal",
+      "magnitude": 0.15435
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.11756,
+      "direction": "toward normal",
+      "magnitude": 0.11756
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.09766,
+      "direction": "toward normal",
+      "magnitude": 0.09766
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09327,
+      "direction": "toward normal",
+      "magnitude": 0.09327
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.09305,
+      "direction": "toward normal",
+      "magnitude": 0.09305
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.08864,
+      "direction": "toward normal",
+      "magnitude": 0.08864
+    }
+  ],
+  "722": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.15148,
+      "direction": "toward normal",
+      "magnitude": 0.15148
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.11072,
+      "direction": "toward normal",
+      "magnitude": 0.11072
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.09996,
+      "direction": "toward normal",
+      "magnitude": 0.09996
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09394,
+      "direction": "toward normal",
+      "magnitude": 0.09394
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09134,
+      "direction": "toward normal",
+      "magnitude": 0.09134
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.0901,
+      "direction": "toward normal",
+      "magnitude": 0.0901
+    }
+  ],
+  "723": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.15174,
+      "direction": "toward normal",
+      "magnitude": 0.15174
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.11717,
+      "direction": "toward normal",
+      "magnitude": 0.11717
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.10421,
+      "direction": "toward normal",
+      "magnitude": 0.10421
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09436,
+      "direction": "toward normal",
+      "magnitude": 0.09436
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.09098,
+      "direction": "toward normal",
+      "magnitude": 0.09098
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.08769,
+      "direction": "toward normal",
+      "magnitude": 0.08769
+    }
+  ],
+  "724": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.13649,
+      "direction": "toward normal",
+      "magnitude": 0.13649
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.12452,
+      "direction": "toward normal",
+      "magnitude": 0.12452
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11664,
+      "direction": "toward normal",
+      "magnitude": 0.11664
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.09829,
+      "direction": "toward normal",
+      "magnitude": 0.09829
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09171,
+      "direction": "toward normal",
+      "magnitude": 0.09171
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.08723,
+      "direction": "toward normal",
+      "magnitude": 0.08723
+    }
+  ],
+  "725": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.14313,
+      "direction": "toward normal",
+      "magnitude": 0.14313
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.12269,
+      "direction": "toward normal",
+      "magnitude": 0.12269
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12108,
+      "direction": "toward normal",
+      "magnitude": 0.12108
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.09973,
+      "direction": "toward normal",
+      "magnitude": 0.09973
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09072,
+      "direction": "toward normal",
+      "magnitude": 0.09072
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.08625,
+      "direction": "toward normal",
+      "magnitude": 0.08625
+    }
+  ],
+  "726": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.14321,
+      "direction": "toward normal",
+      "magnitude": 0.14321
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12885,
+      "direction": "toward normal",
+      "magnitude": 0.12885
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.11593,
+      "direction": "toward normal",
+      "magnitude": 0.11593
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.09944,
+      "direction": "toward normal",
+      "magnitude": 0.09944
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.09205,
+      "direction": "toward normal",
+      "magnitude": 0.09205
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09094,
+      "direction": "toward normal",
+      "magnitude": 0.09094
+    }
+  ],
+  "727": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.16131,
+      "direction": "toward normal",
+      "magnitude": 0.16131
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.12592,
+      "direction": "toward normal",
+      "magnitude": 0.12592
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.12498,
+      "direction": "toward normal",
+      "magnitude": 0.12498
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.1047,
+      "direction": "toward normal",
+      "magnitude": 0.1047
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.09885,
+      "direction": "toward normal",
+      "magnitude": 0.09885
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08992,
+      "direction": "toward normal",
+      "magnitude": 0.08992
+    }
+  ],
+  "728": [
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.1462,
+      "direction": "toward normal",
+      "magnitude": 0.1462
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.14523,
+      "direction": "toward normal",
+      "magnitude": 0.14523
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.11264,
+      "direction": "toward normal",
+      "magnitude": 0.11264
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.10539,
+      "direction": "toward normal",
+      "magnitude": 0.10539
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.0952,
+      "direction": "toward normal",
+      "magnitude": 0.0952
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.0938,
+      "direction": "toward normal",
+      "magnitude": 0.0938
+    }
+  ],
+  "729": [
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.18015,
+      "direction": "toward normal",
+      "magnitude": 0.18015
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.15215,
+      "direction": "toward normal",
+      "magnitude": 0.15215
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.1028,
+      "direction": "toward normal",
+      "magnitude": 0.1028
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.09739,
+      "direction": "toward normal",
+      "magnitude": 0.09739
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.09059,
+      "direction": "toward normal",
+      "magnitude": 0.09059
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09022,
+      "direction": "toward normal",
+      "magnitude": 0.09022
+    }
+  ],
+  "730": [
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.19994,
+      "direction": "toward normal",
+      "magnitude": 0.19994
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.14987,
+      "direction": "toward normal",
+      "magnitude": 0.14987
+    },
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.11568,
+      "direction": "toward normal",
+      "magnitude": 0.11568
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.10161,
+      "direction": "toward normal",
+      "magnitude": 0.10161
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08747,
+      "direction": "toward normal",
+      "magnitude": 0.08747
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.08673,
+      "direction": "toward normal",
+      "magnitude": 0.08673
+    }
+  ],
+  "731": [
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.18611,
+      "direction": "toward normal",
+      "magnitude": 0.18611
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.15151,
+      "direction": "toward normal",
+      "magnitude": 0.15151
+    },
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.13953,
+      "direction": "toward normal",
+      "magnitude": 0.13953
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.10071,
+      "direction": "toward normal",
+      "magnitude": 0.10071
+    },
+    {
+      "feature": "feat_P1_PIT01_std10",
+      "shap_value": -0.08507,
+      "direction": "toward normal",
+      "magnitude": 0.08507
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.08468,
+      "direction": "toward normal",
+      "magnitude": 0.08468
+    }
+  ],
+  "732": [
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.18756,
+      "direction": "toward normal",
+      "magnitude": 0.18756
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.1442,
+      "direction": "toward normal",
+      "magnitude": 0.1442
+    },
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.14327,
+      "direction": "toward normal",
+      "magnitude": 0.14327
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12272,
+      "direction": "toward normal",
+      "magnitude": 0.12272
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.09912,
+      "direction": "toward normal",
+      "magnitude": 0.09912
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09275,
+      "direction": "toward normal",
+      "magnitude": 0.09275
+    }
+  ],
+  "733": [
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.1935,
+      "direction": "toward normal",
+      "magnitude": 0.1935
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.14493,
+      "direction": "toward normal",
+      "magnitude": 0.14493
+    },
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.14248,
+      "direction": "toward normal",
+      "magnitude": 0.14248
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12535,
+      "direction": "toward normal",
+      "magnitude": 0.12535
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.10634,
+      "direction": "toward normal",
+      "magnitude": 0.10634
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09186,
+      "direction": "toward normal",
+      "magnitude": 0.09186
+    }
+  ],
+  "734": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.1509,
+      "direction": "toward normal",
+      "magnitude": 0.1509
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.13841,
+      "direction": "toward normal",
+      "magnitude": 0.13841
+    },
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.1334,
+      "direction": "toward normal",
+      "magnitude": 0.1334
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12162,
+      "direction": "toward normal",
+      "magnitude": 0.12162
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.10442,
+      "direction": "toward normal",
+      "magnitude": 0.10442
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08922,
+      "direction": "toward normal",
+      "magnitude": 0.08922
+    }
+  ],
+  "735": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.13973,
+      "direction": "toward normal",
+      "magnitude": 0.13973
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.12874,
+      "direction": "toward normal",
+      "magnitude": 0.12874
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.10429,
+      "direction": "toward normal",
+      "magnitude": 0.10429
+    },
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.09518,
+      "direction": "toward normal",
+      "magnitude": 0.09518
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08987,
+      "direction": "toward normal",
+      "magnitude": 0.08987
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.0894,
+      "direction": "toward normal",
+      "magnitude": 0.0894
+    }
+  ],
+  "736": [
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.14487,
+      "direction": "toward normal",
+      "magnitude": 0.14487
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.14019,
+      "direction": "toward normal",
+      "magnitude": 0.14019
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09192,
+      "direction": "toward normal",
+      "magnitude": 0.09192
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.0893,
+      "direction": "toward normal",
+      "magnitude": 0.0893
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.08695,
+      "direction": "toward normal",
+      "magnitude": 0.08695
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08415,
+      "direction": "toward normal",
+      "magnitude": 0.08415
+    }
+  ],
+  "737": [
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.14543,
+      "direction": "toward normal",
+      "magnitude": 0.14543
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.14487,
+      "direction": "toward normal",
+      "magnitude": 0.14487
+    },
+    {
+      "feature": "P1_PCV01D",
+      "shap_value": -0.09183,
+      "direction": "toward normal",
+      "magnitude": 0.09183
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08997,
+      "direction": "toward normal",
+      "magnitude": 0.08997
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.0818,
+      "direction": "toward normal",
+      "magnitude": 0.0818
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.08143,
+      "direction": "toward normal",
+      "magnitude": 0.08143
+    }
+  ],
+  "738": [
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.1464,
+      "direction": "toward normal",
+      "magnitude": 0.1464
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.13521,
+      "direction": "toward normal",
+      "magnitude": 0.13521
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09276,
+      "direction": "toward normal",
+      "magnitude": 0.09276
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08637,
+      "direction": "toward normal",
+      "magnitude": 0.08637
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.0804,
+      "direction": "toward normal",
+      "magnitude": 0.0804
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.08024,
+      "direction": "toward normal",
+      "magnitude": 0.08024
+    }
+  ],
+  "744": [
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.13693,
+      "direction": "toward normal",
+      "magnitude": 0.13693
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.13312,
+      "direction": "toward normal",
+      "magnitude": 0.13312
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11012,
+      "direction": "toward normal",
+      "magnitude": 0.11012
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.09775,
+      "direction": "toward normal",
+      "magnitude": 0.09775
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09568,
+      "direction": "toward normal",
+      "magnitude": 0.09568
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08188,
+      "direction": "toward normal",
+      "magnitude": 0.08188
+    }
+  ],
+  "745": [
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.14444,
+      "direction": "toward normal",
+      "magnitude": 0.14444
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.13391,
+      "direction": "toward normal",
+      "magnitude": 0.13391
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.10812,
+      "direction": "toward normal",
+      "magnitude": 0.10812
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.10385,
+      "direction": "toward normal",
+      "magnitude": 0.10385
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09112,
+      "direction": "toward normal",
+      "magnitude": 0.09112
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.08771,
+      "direction": "toward normal",
+      "magnitude": 0.08771
+    }
+  ],
+  "746": [
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.14448,
+      "direction": "toward normal",
+      "magnitude": 0.14448
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.13184,
+      "direction": "toward normal",
+      "magnitude": 0.13184
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.10421,
+      "direction": "toward normal",
+      "magnitude": 0.10421
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09919,
+      "direction": "toward normal",
+      "magnitude": 0.09919
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09447,
+      "direction": "toward normal",
+      "magnitude": 0.09447
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.08345,
+      "direction": "toward normal",
+      "magnitude": 0.08345
+    }
+  ],
+  "747": [
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.14227,
+      "direction": "toward normal",
+      "magnitude": 0.14227
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.12433,
+      "direction": "toward normal",
+      "magnitude": 0.12433
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.10609,
+      "direction": "toward normal",
+      "magnitude": 0.10609
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.09796,
+      "direction": "toward normal",
+      "magnitude": 0.09796
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09308,
+      "direction": "toward normal",
+      "magnitude": 0.09308
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.0913,
+      "direction": "toward normal",
+      "magnitude": 0.0913
+    }
+  ],
+  "749": [
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.14371,
+      "direction": "toward normal",
+      "magnitude": 0.14371
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12779,
+      "direction": "toward normal",
+      "magnitude": 0.12779
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11722,
+      "direction": "toward normal",
+      "magnitude": 0.11722
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.10877,
+      "direction": "toward normal",
+      "magnitude": 0.10877
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09995,
+      "direction": "toward normal",
+      "magnitude": 0.09995
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.0887,
+      "direction": "toward normal",
+      "magnitude": 0.0887
+    }
+  ],
+  "754": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12269,
+      "direction": "toward normal",
+      "magnitude": 0.12269
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11366,
+      "direction": "toward normal",
+      "magnitude": 0.11366
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.1077,
+      "direction": "toward normal",
+      "magnitude": 0.1077
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09674,
+      "direction": "toward normal",
+      "magnitude": 0.09674
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.08731,
+      "direction": "toward normal",
+      "magnitude": 0.08731
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08707,
+      "direction": "toward normal",
+      "magnitude": 0.08707
+    }
+  ],
+  "755": [
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.12024,
+      "direction": "toward normal",
+      "magnitude": 0.12024
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11929,
+      "direction": "toward normal",
+      "magnitude": 0.11929
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.10393,
+      "direction": "toward normal",
+      "magnitude": 0.10393
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.09523,
+      "direction": "toward normal",
+      "magnitude": 0.09523
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.0863,
+      "direction": "toward normal",
+      "magnitude": 0.0863
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08503,
+      "direction": "toward normal",
+      "magnitude": 0.08503
+    }
+  ],
+  "756": [
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11696,
+      "direction": "toward normal",
+      "magnitude": 0.11696
+    },
+    {
+      "feature": "feat_P1_TIT01_std60",
+      "shap_value": -0.09733,
+      "direction": "toward normal",
+      "magnitude": 0.09733
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09278,
+      "direction": "toward normal",
+      "magnitude": 0.09278
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.0922,
+      "direction": "toward normal",
+      "magnitude": 0.0922
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.0832,
+      "direction": "toward normal",
+      "magnitude": 0.0832
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.07916,
+      "direction": "toward normal",
+      "magnitude": 0.07916
+    }
+  ],
+  "757": [
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11633,
+      "direction": "toward normal",
+      "magnitude": 0.11633
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.09981,
+      "direction": "toward normal",
+      "magnitude": 0.09981
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.0953,
+      "direction": "toward normal",
+      "magnitude": 0.0953
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09065,
+      "direction": "toward normal",
+      "magnitude": 0.09065
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08483,
+      "direction": "toward normal",
+      "magnitude": 0.08483
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08247,
+      "direction": "toward normal",
+      "magnitude": 0.08247
+    }
+  ],
+  "758": [
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.12579,
+      "direction": "toward normal",
+      "magnitude": 0.12579
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.10064,
+      "direction": "toward normal",
+      "magnitude": 0.10064
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.09372,
+      "direction": "toward normal",
+      "magnitude": 0.09372
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.09038,
+      "direction": "toward normal",
+      "magnitude": 0.09038
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.0779,
+      "direction": "toward normal",
+      "magnitude": 0.0779
+    },
+    {
+      "feature": "feat_P1_FT01Z_std60",
+      "shap_value": -0.06318,
+      "direction": "toward normal",
+      "magnitude": 0.06318
+    }
+  ],
+  "759": [
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.12351,
+      "direction": "toward normal",
+      "magnitude": 0.12351
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.08617,
+      "direction": "toward normal",
+      "magnitude": 0.08617
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.08495,
+      "direction": "toward normal",
+      "magnitude": 0.08495
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.07821,
+      "direction": "toward normal",
+      "magnitude": 0.07821
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.06994,
+      "direction": "toward normal",
+      "magnitude": 0.06994
+    },
+    {
+      "feature": "feat_P1_PIT01_mean30",
+      "shap_value": -0.06236,
+      "direction": "toward normal",
+      "magnitude": 0.06236
+    }
+  ],
+  "761": [
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.12332,
+      "direction": "toward normal",
+      "magnitude": 0.12332
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.11016,
+      "direction": "toward normal",
+      "magnitude": 0.11016
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10614,
+      "direction": "toward normal",
+      "magnitude": 0.10614
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.08929,
+      "direction": "toward normal",
+      "magnitude": 0.08929
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.08601,
+      "direction": "toward normal",
+      "magnitude": 0.08601
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.08286,
+      "direction": "toward normal",
+      "magnitude": 0.08286
+    }
+  ],
+  "764": [
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.1132,
+      "direction": "toward normal",
+      "magnitude": 0.1132
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10616,
+      "direction": "toward normal",
+      "magnitude": 0.10616
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09277,
+      "direction": "toward normal",
+      "magnitude": 0.09277
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.08849,
+      "direction": "toward normal",
+      "magnitude": 0.08849
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.0793,
+      "direction": "toward normal",
+      "magnitude": 0.0793
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.07558,
+      "direction": "toward normal",
+      "magnitude": 0.07558
+    }
+  ],
+  "765": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.1233,
+      "direction": "toward normal",
+      "magnitude": 0.1233
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.12216,
+      "direction": "toward normal",
+      "magnitude": 0.12216
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10834,
+      "direction": "toward normal",
+      "magnitude": 0.10834
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09216,
+      "direction": "toward normal",
+      "magnitude": 0.09216
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.08466,
+      "direction": "toward normal",
+      "magnitude": 0.08466
+    },
+    {
+      "feature": "P3_LIT01",
+      "shap_value": -0.0809,
+      "direction": "toward normal",
+      "magnitude": 0.0809
+    }
+  ],
+  "766": [
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.12562,
+      "direction": "toward normal",
+      "magnitude": 0.12562
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.12323,
+      "direction": "toward normal",
+      "magnitude": 0.12323
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.11152,
+      "direction": "toward normal",
+      "magnitude": 0.11152
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10229,
+      "direction": "toward normal",
+      "magnitude": 0.10229
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09225,
+      "direction": "toward normal",
+      "magnitude": 0.09225
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.08552,
+      "direction": "toward normal",
+      "magnitude": 0.08552
+    }
+  ],
+  "767": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.15831,
+      "direction": "toward normal",
+      "magnitude": 0.15831
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.12114,
+      "direction": "toward normal",
+      "magnitude": 0.12114
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.10906,
+      "direction": "toward normal",
+      "magnitude": 0.10906
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.1038,
+      "direction": "toward normal",
+      "magnitude": 0.1038
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.09519,
+      "direction": "toward normal",
+      "magnitude": 0.09519
+    },
+    {
+      "feature": "P2_SCST",
+      "shap_value": -0.09384,
+      "direction": "toward normal",
+      "magnitude": 0.09384
+    }
+  ],
+  "768": [
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.14531,
+      "direction": "toward normal",
+      "magnitude": 0.14531
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.1193,
+      "direction": "toward normal",
+      "magnitude": 0.1193
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.11527,
+      "direction": "toward normal",
+      "magnitude": 0.11527
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11361,
+      "direction": "toward normal",
+      "magnitude": 0.11361
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10377,
+      "direction": "toward normal",
+      "magnitude": 0.10377
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.10227,
+      "direction": "toward normal",
+      "magnitude": 0.10227
+    }
+  ],
+  "769": [
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.12132,
+      "direction": "toward normal",
+      "magnitude": 0.12132
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11437,
+      "direction": "toward normal",
+      "magnitude": 0.11437
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.11417,
+      "direction": "toward normal",
+      "magnitude": 0.11417
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11207,
+      "direction": "toward normal",
+      "magnitude": 0.11207
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10147,
+      "direction": "toward normal",
+      "magnitude": 0.10147
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.10144,
+      "direction": "toward normal",
+      "magnitude": 0.10144
+    }
+  ],
+  "770": [
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.12958,
+      "direction": "toward normal",
+      "magnitude": 0.12958
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11412,
+      "direction": "toward normal",
+      "magnitude": 0.11412
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11368,
+      "direction": "toward normal",
+      "magnitude": 0.11368
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.11294,
+      "direction": "toward normal",
+      "magnitude": 0.11294
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10223,
+      "direction": "toward normal",
+      "magnitude": 0.10223
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.09779,
+      "direction": "toward normal",
+      "magnitude": 0.09779
+    }
+  ],
+  "771": [
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.1221,
+      "direction": "toward normal",
+      "magnitude": 0.1221
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.1177,
+      "direction": "toward normal",
+      "magnitude": 0.1177
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.11638,
+      "direction": "toward normal",
+      "magnitude": 0.11638
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.11226,
+      "direction": "toward normal",
+      "magnitude": 0.11226
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.10586,
+      "direction": "toward normal",
+      "magnitude": 0.10586
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10232,
+      "direction": "toward normal",
+      "magnitude": 0.10232
+    }
+  ],
+  "772": [
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.12252,
+      "direction": "toward normal",
+      "magnitude": 0.12252
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11551,
+      "direction": "toward normal",
+      "magnitude": 0.11551
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.11348,
+      "direction": "toward normal",
+      "magnitude": 0.11348
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.11206,
+      "direction": "toward normal",
+      "magnitude": 0.11206
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.10942,
+      "direction": "toward normal",
+      "magnitude": 0.10942
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.10527,
+      "direction": "toward normal",
+      "magnitude": 0.10527
+    }
+  ],
+  "837": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.19487,
+      "direction": "toward normal",
+      "magnitude": 0.19487
+    },
+    {
+      "feature": "feat_P1_LIT01_std60",
+      "shap_value": -0.11133,
+      "direction": "toward normal",
+      "magnitude": 0.11133
+    },
+    {
+      "feature": "feat_P1_FT01_max60",
+      "shap_value": -0.09996,
+      "direction": "toward normal",
+      "magnitude": 0.09996
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.08915,
+      "direction": "toward normal",
+      "magnitude": 0.08915
+    },
+    {
+      "feature": "feat_P1_FT01Z_mean60",
+      "shap_value": -0.08222,
+      "direction": "toward normal",
+      "magnitude": 0.08222
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.07978,
+      "direction": "toward normal",
+      "magnitude": 0.07978
+    }
+  ],
+  "838": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.12615,
+      "direction": "toward normal",
+      "magnitude": 0.12615
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12243,
+      "direction": "toward normal",
+      "magnitude": 0.12243
+    },
+    {
+      "feature": "feat_P1_LIT01_std60",
+      "shap_value": -0.11788,
+      "direction": "toward normal",
+      "magnitude": 0.11788
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11176,
+      "direction": "toward normal",
+      "magnitude": 0.11176
+    },
+    {
+      "feature": "feat_P1_FT01_mean60",
+      "shap_value": -0.10086,
+      "direction": "toward normal",
+      "magnitude": 0.10086
+    },
+    {
+      "feature": "feat_P1_FT01_max60",
+      "shap_value": -0.0971,
+      "direction": "toward normal",
+      "magnitude": 0.0971
+    }
+  ],
+  "1414": [
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.19585,
+      "direction": "toward normal",
+      "magnitude": 0.19585
+    },
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.176,
+      "direction": "toward normal",
+      "magnitude": 0.176
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.10398,
+      "direction": "toward normal",
+      "magnitude": 0.10398
+    },
+    {
+      "feature": "P2_24Vdc",
+      "shap_value": -0.06437,
+      "direction": "toward normal",
+      "magnitude": 0.06437
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05765,
+      "direction": "toward normal",
+      "magnitude": 0.05765
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05571,
+      "direction": "toward normal",
+      "magnitude": 0.05571
+    }
+  ],
+  "1415": [
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.22524,
+      "direction": "toward normal",
+      "magnitude": 0.22524
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.1838,
+      "direction": "toward normal",
+      "magnitude": 0.1838
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.1141,
+      "direction": "toward normal",
+      "magnitude": 0.1141
+    },
+    {
+      "feature": "P2_24Vdc",
+      "shap_value": -0.06186,
+      "direction": "toward normal",
+      "magnitude": 0.06186
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05769,
+      "direction": "toward normal",
+      "magnitude": 0.05769
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.05294,
+      "direction": "toward normal",
+      "magnitude": 0.05294
+    }
+  ],
+  "1416": [
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.22974,
+      "direction": "toward normal",
+      "magnitude": 0.22974
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.18917,
+      "direction": "toward normal",
+      "magnitude": 0.18917
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.11047,
+      "direction": "toward normal",
+      "magnitude": 0.11047
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10301,
+      "direction": "toward normal",
+      "magnitude": 0.10301
+    },
+    {
+      "feature": "feat_roc_P2_SIT01",
+      "shap_value": -0.07446,
+      "direction": "toward normal",
+      "magnitude": 0.07446
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06346,
+      "direction": "toward normal",
+      "magnitude": 0.06346
+    }
+  ],
+  "1417": [
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.22584,
+      "direction": "toward normal",
+      "magnitude": 0.22584
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.19265,
+      "direction": "toward normal",
+      "magnitude": 0.19265
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.10653,
+      "direction": "toward normal",
+      "magnitude": 0.10653
+    },
+    {
+      "feature": "feat_roc_P1_FT03Z",
+      "shap_value": -0.07456,
+      "direction": "toward normal",
+      "magnitude": 0.07456
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07162,
+      "direction": "toward normal",
+      "magnitude": 0.07162
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05846,
+      "direction": "toward normal",
+      "magnitude": 0.05846
+    }
+  ],
+  "1418": [
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.19998,
+      "direction": "toward normal",
+      "magnitude": 0.19998
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.17962,
+      "direction": "toward normal",
+      "magnitude": 0.17962
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.1051,
+      "direction": "toward normal",
+      "magnitude": 0.1051
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.07553,
+      "direction": "toward normal",
+      "magnitude": 0.07553
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.06849,
+      "direction": "toward normal",
+      "magnitude": 0.06849
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06176,
+      "direction": "toward normal",
+      "magnitude": 0.06176
+    }
+  ],
+  "1419": [
+    {
+      "feature": "feat_P1_FT03Z_std10",
+      "shap_value": -0.1821,
+      "direction": "toward normal",
+      "magnitude": 0.1821
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.14059,
+      "direction": "toward normal",
+      "magnitude": 0.14059
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.10942,
+      "direction": "toward normal",
+      "magnitude": 0.10942
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09796,
+      "direction": "toward normal",
+      "magnitude": 0.09796
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.06897,
+      "direction": "toward normal",
+      "magnitude": 0.06897
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.06373,
+      "direction": "toward normal",
+      "magnitude": 0.06373
+    }
+  ],
+  "1421": [
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.11749,
+      "direction": "toward normal",
+      "magnitude": 0.11749
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.11336,
+      "direction": "toward normal",
+      "magnitude": 0.11336
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.08792,
+      "direction": "toward normal",
+      "magnitude": 0.08792
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.06944,
+      "direction": "toward normal",
+      "magnitude": 0.06944
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06207,
+      "direction": "toward normal",
+      "magnitude": 0.06207
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05602,
+      "direction": "toward normal",
+      "magnitude": 0.05602
+    }
+  ],
+  "1422": [
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.11814,
+      "direction": "toward normal",
+      "magnitude": 0.11814
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10643,
+      "direction": "toward normal",
+      "magnitude": 0.10643
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10208,
+      "direction": "toward normal",
+      "magnitude": 0.10208
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.08809,
+      "direction": "toward normal",
+      "magnitude": 0.08809
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06329,
+      "direction": "toward normal",
+      "magnitude": 0.06329
+    },
+    {
+      "feature": "feat_P1_FT03Z_std30",
+      "shap_value": -0.05787,
+      "direction": "toward normal",
+      "magnitude": 0.05787
+    }
+  ],
+  "1423": [
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.11793,
+      "direction": "toward normal",
+      "magnitude": 0.11793
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.11095,
+      "direction": "toward normal",
+      "magnitude": 0.11095
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07916,
+      "direction": "toward normal",
+      "magnitude": 0.07916
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.06319,
+      "direction": "toward normal",
+      "magnitude": 0.06319
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05869,
+      "direction": "toward normal",
+      "magnitude": 0.05869
+    },
+    {
+      "feature": "feat_P1_FT03Z_std30",
+      "shap_value": -0.05187,
+      "direction": "toward normal",
+      "magnitude": 0.05187
+    }
+  ],
+  "1424": [
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.11563,
+      "direction": "toward normal",
+      "magnitude": 0.11563
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.11035,
+      "direction": "toward normal",
+      "magnitude": 0.11035
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.07949,
+      "direction": "toward normal",
+      "magnitude": 0.07949
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06286,
+      "direction": "toward normal",
+      "magnitude": 0.06286
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.05108,
+      "direction": "toward normal",
+      "magnitude": 0.05108
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.05101,
+      "direction": "toward normal",
+      "magnitude": 0.05101
+    }
+  ],
+  "1425": [
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.11225,
+      "direction": "toward normal",
+      "magnitude": 0.11225
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10395,
+      "direction": "toward normal",
+      "magnitude": 0.10395
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10155,
+      "direction": "toward normal",
+      "magnitude": 0.10155
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06246,
+      "direction": "toward normal",
+      "magnitude": 0.06246
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.05573,
+      "direction": "toward normal",
+      "magnitude": 0.05573
+    },
+    {
+      "feature": "feat_P1_FT03Z_std30",
+      "shap_value": -0.05239,
+      "direction": "toward normal",
+      "magnitude": 0.05239
+    }
+  ],
+  "1426": [
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.12245,
+      "direction": "toward normal",
+      "magnitude": 0.12245
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.11017,
+      "direction": "toward normal",
+      "magnitude": 0.11017
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06303,
+      "direction": "toward normal",
+      "magnitude": 0.06303
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.05613,
+      "direction": "toward normal",
+      "magnitude": 0.05613
+    },
+    {
+      "feature": "feat_P1_FT03Z_std30",
+      "shap_value": -0.05219,
+      "direction": "toward normal",
+      "magnitude": 0.05219
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05084,
+      "direction": "toward normal",
+      "magnitude": 0.05084
+    }
+  ],
+  "1427": [
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.11259,
+      "direction": "toward normal",
+      "magnitude": 0.11259
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10972,
+      "direction": "toward normal",
+      "magnitude": 0.10972
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09937,
+      "direction": "toward normal",
+      "magnitude": 0.09937
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.07277,
+      "direction": "toward normal",
+      "magnitude": 0.07277
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06613,
+      "direction": "toward normal",
+      "magnitude": 0.06613
+    },
+    {
+      "feature": "feat_P1_FT03Z_std30",
+      "shap_value": -0.05496,
+      "direction": "toward normal",
+      "magnitude": 0.05496
+    }
+  ],
+  "1428": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.13831,
+      "direction": "toward normal",
+      "magnitude": 0.13831
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.10796,
+      "direction": "toward normal",
+      "magnitude": 0.10796
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10514,
+      "direction": "toward normal",
+      "magnitude": 0.10514
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.1002,
+      "direction": "toward normal",
+      "magnitude": 0.1002
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06397,
+      "direction": "toward normal",
+      "magnitude": 0.06397
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.05174,
+      "direction": "toward normal",
+      "magnitude": 0.05174
+    }
+  ],
+  "1429": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.14237,
+      "direction": "toward normal",
+      "magnitude": 0.14237
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10286,
+      "direction": "toward normal",
+      "magnitude": 0.10286
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.10215,
+      "direction": "toward normal",
+      "magnitude": 0.10215
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.1004,
+      "direction": "toward normal",
+      "magnitude": 0.1004
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06079,
+      "direction": "toward normal",
+      "magnitude": 0.06079
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.05261,
+      "direction": "toward normal",
+      "magnitude": 0.05261
+    }
+  ],
+  "1430": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.13925,
+      "direction": "toward normal",
+      "magnitude": 0.13925
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.10459,
+      "direction": "toward normal",
+      "magnitude": 0.10459
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10017,
+      "direction": "toward normal",
+      "magnitude": 0.10017
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.0998,
+      "direction": "toward normal",
+      "magnitude": 0.0998
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.07859,
+      "direction": "toward normal",
+      "magnitude": 0.07859
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06595,
+      "direction": "toward normal",
+      "magnitude": 0.06595
+    }
+  ],
+  "1431": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.14535,
+      "direction": "toward normal",
+      "magnitude": 0.14535
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.12688,
+      "direction": "toward normal",
+      "magnitude": 0.12688
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11401,
+      "direction": "toward normal",
+      "magnitude": 0.11401
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.101,
+      "direction": "toward normal",
+      "magnitude": 0.101
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.09809,
+      "direction": "toward normal",
+      "magnitude": 0.09809
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06327,
+      "direction": "toward normal",
+      "magnitude": 0.06327
+    }
+  ],
+  "1432": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.13753,
+      "direction": "toward normal",
+      "magnitude": 0.13753
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.12752,
+      "direction": "toward normal",
+      "magnitude": 0.12752
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.11307,
+      "direction": "toward normal",
+      "magnitude": 0.11307
+    },
+    {
+      "feature": "feat_P1_FT03_std30",
+      "shap_value": -0.098,
+      "direction": "toward normal",
+      "magnitude": 0.098
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06368,
+      "direction": "toward normal",
+      "magnitude": 0.06368
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05767,
+      "direction": "toward normal",
+      "magnitude": 0.05767
+    }
+  ],
+  "1471": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11908,
+      "direction": "toward normal",
+      "magnitude": 0.11908
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09733,
+      "direction": "toward normal",
+      "magnitude": 0.09733
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09629,
+      "direction": "toward normal",
+      "magnitude": 0.09629
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.0762,
+      "direction": "toward normal",
+      "magnitude": 0.0762
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.07115,
+      "direction": "toward normal",
+      "magnitude": 0.07115
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.06633,
+      "direction": "toward normal",
+      "magnitude": 0.06633
+    }
+  ],
+  "1472": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12355,
+      "direction": "toward normal",
+      "magnitude": 0.12355
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.1067,
+      "direction": "toward normal",
+      "magnitude": 0.1067
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.08034,
+      "direction": "toward normal",
+      "magnitude": 0.08034
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.07553,
+      "direction": "toward normal",
+      "magnitude": 0.07553
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.06965,
+      "direction": "toward normal",
+      "magnitude": 0.06965
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06531,
+      "direction": "toward normal",
+      "magnitude": 0.06531
+    }
+  ],
+  "1473": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11896,
+      "direction": "toward normal",
+      "magnitude": 0.11896
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09359,
+      "direction": "toward normal",
+      "magnitude": 0.09359
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09147,
+      "direction": "toward normal",
+      "magnitude": 0.09147
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.06998,
+      "direction": "toward normal",
+      "magnitude": 0.06998
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.06536,
+      "direction": "toward normal",
+      "magnitude": 0.06536
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06433,
+      "direction": "toward normal",
+      "magnitude": 0.06433
+    }
+  ],
+  "1474": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11918,
+      "direction": "toward normal",
+      "magnitude": 0.11918
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10262,
+      "direction": "toward normal",
+      "magnitude": 0.10262
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10251,
+      "direction": "toward normal",
+      "magnitude": 0.10251
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.07311,
+      "direction": "toward normal",
+      "magnitude": 0.07311
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06869,
+      "direction": "toward normal",
+      "magnitude": 0.06869
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.06038,
+      "direction": "toward normal",
+      "magnitude": 0.06038
+    }
+  ],
+  "1475": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.11717,
+      "direction": "toward normal",
+      "magnitude": 0.11717
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.10651,
+      "direction": "toward normal",
+      "magnitude": 0.10651
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10299,
+      "direction": "toward normal",
+      "magnitude": 0.10299
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10173,
+      "direction": "toward normal",
+      "magnitude": 0.10173
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.06943,
+      "direction": "toward normal",
+      "magnitude": 0.06943
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06657,
+      "direction": "toward normal",
+      "magnitude": 0.06657
+    }
+  ],
+  "1476": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12604,
+      "direction": "toward normal",
+      "magnitude": 0.12604
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09623,
+      "direction": "toward normal",
+      "magnitude": 0.09623
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09443,
+      "direction": "toward normal",
+      "magnitude": 0.09443
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.06817,
+      "direction": "toward normal",
+      "magnitude": 0.06817
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.06588,
+      "direction": "toward normal",
+      "magnitude": 0.06588
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06286,
+      "direction": "toward normal",
+      "magnitude": 0.06286
+    }
+  ],
+  "1477": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12534,
+      "direction": "toward normal",
+      "magnitude": 0.12534
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10021,
+      "direction": "toward normal",
+      "magnitude": 0.10021
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.06196,
+      "direction": "toward normal",
+      "magnitude": 0.06196
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06009,
+      "direction": "toward normal",
+      "magnitude": 0.06009
+    },
+    {
+      "feature": "P4_ST_LD",
+      "shap_value": -0.05973,
+      "direction": "toward normal",
+      "magnitude": 0.05973
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.05918,
+      "direction": "toward normal",
+      "magnitude": 0.05918
+    }
+  ],
+  "1478": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.1289,
+      "direction": "toward normal",
+      "magnitude": 0.1289
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09686,
+      "direction": "toward normal",
+      "magnitude": 0.09686
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09604,
+      "direction": "toward normal",
+      "magnitude": 0.09604
+    },
+    {
+      "feature": "feat_roc_P1_FT02Z",
+      "shap_value": -0.08768,
+      "direction": "toward normal",
+      "magnitude": 0.08768
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06482,
+      "direction": "toward normal",
+      "magnitude": 0.06482
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.05976,
+      "direction": "toward normal",
+      "magnitude": 0.05976
+    }
+  ],
+  "1479": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12373,
+      "direction": "toward normal",
+      "magnitude": 0.12373
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09504,
+      "direction": "toward normal",
+      "magnitude": 0.09504
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08815,
+      "direction": "toward normal",
+      "magnitude": 0.08815
+    },
+    {
+      "feature": "feat_roc_P1_FT02Z",
+      "shap_value": -0.08423,
+      "direction": "toward normal",
+      "magnitude": 0.08423
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.08032,
+      "direction": "toward normal",
+      "magnitude": 0.08032
+    },
+    {
+      "feature": "P4_ST_LD",
+      "shap_value": -0.07473,
+      "direction": "toward normal",
+      "magnitude": 0.07473
+    }
+  ],
+  "1480": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.13008,
+      "direction": "toward normal",
+      "magnitude": 0.13008
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10051,
+      "direction": "toward normal",
+      "magnitude": 0.10051
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.08106,
+      "direction": "toward normal",
+      "magnitude": 0.08106
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.0659,
+      "direction": "toward normal",
+      "magnitude": 0.0659
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06358,
+      "direction": "toward normal",
+      "magnitude": 0.06358
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.05786,
+      "direction": "toward normal",
+      "magnitude": 0.05786
+    }
+  ],
+  "1481": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12231,
+      "direction": "toward normal",
+      "magnitude": 0.12231
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.0908,
+      "direction": "toward normal",
+      "magnitude": 0.0908
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08557,
+      "direction": "toward normal",
+      "magnitude": 0.08557
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.07923,
+      "direction": "toward normal",
+      "magnitude": 0.07923
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.06506,
+      "direction": "toward normal",
+      "magnitude": 0.06506
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06073,
+      "direction": "toward normal",
+      "magnitude": 0.06073
+    }
+  ],
+  "1482": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12607,
+      "direction": "toward normal",
+      "magnitude": 0.12607
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.11141,
+      "direction": "toward normal",
+      "magnitude": 0.11141
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06634,
+      "direction": "toward normal",
+      "magnitude": 0.06634
+    },
+    {
+      "feature": "P4_LD",
+      "shap_value": -0.05969,
+      "direction": "toward normal",
+      "magnitude": 0.05969
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.05601,
+      "direction": "toward normal",
+      "magnitude": 0.05601
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.05411,
+      "direction": "toward normal",
+      "magnitude": 0.05411
+    }
+  ],
+  "1483": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11804,
+      "direction": "toward normal",
+      "magnitude": 0.11804
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.11027,
+      "direction": "toward normal",
+      "magnitude": 0.11027
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10573,
+      "direction": "toward normal",
+      "magnitude": 0.10573
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08944,
+      "direction": "toward normal",
+      "magnitude": 0.08944
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.06585,
+      "direction": "toward normal",
+      "magnitude": 0.06585
+    },
+    {
+      "feature": "P1_PCV01Z",
+      "shap_value": -0.06261,
+      "direction": "toward normal",
+      "magnitude": 0.06261
+    }
+  ],
+  "1484": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12397,
+      "direction": "toward normal",
+      "magnitude": 0.12397
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09853,
+      "direction": "toward normal",
+      "magnitude": 0.09853
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09075,
+      "direction": "toward normal",
+      "magnitude": 0.09075
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.08242,
+      "direction": "toward normal",
+      "magnitude": 0.08242
+    },
+    {
+      "feature": "feat_P1_PIT01_std10",
+      "shap_value": -0.07817,
+      "direction": "toward normal",
+      "magnitude": 0.07817
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.06903,
+      "direction": "toward normal",
+      "magnitude": 0.06903
+    }
+  ],
+  "1485": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12149,
+      "direction": "toward normal",
+      "magnitude": 0.12149
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10784,
+      "direction": "toward normal",
+      "magnitude": 0.10784
+    },
+    {
+      "feature": "feat_P1_PIT01_std10",
+      "shap_value": -0.07248,
+      "direction": "toward normal",
+      "magnitude": 0.07248
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.0673,
+      "direction": "toward normal",
+      "magnitude": 0.0673
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.06701,
+      "direction": "toward normal",
+      "magnitude": 0.06701
+    },
+    {
+      "feature": "P1_PCV01Z",
+      "shap_value": -0.06303,
+      "direction": "toward normal",
+      "magnitude": 0.06303
+    }
+  ],
+  "1486": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12102,
+      "direction": "toward normal",
+      "magnitude": 0.12102
+    },
+    {
+      "feature": "feat_roc_P1_FT02Z",
+      "shap_value": -0.10379,
+      "direction": "toward normal",
+      "magnitude": 0.10379
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10196,
+      "direction": "toward normal",
+      "magnitude": 0.10196
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09898,
+      "direction": "toward normal",
+      "magnitude": 0.09898
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.0696,
+      "direction": "toward normal",
+      "magnitude": 0.0696
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.06948,
+      "direction": "toward normal",
+      "magnitude": 0.06948
+    }
+  ],
+  "1487": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.12372,
+      "direction": "toward normal",
+      "magnitude": 0.12372
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11515,
+      "direction": "toward normal",
+      "magnitude": 0.11515
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10888,
+      "direction": "toward normal",
+      "magnitude": 0.10888
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.09756,
+      "direction": "toward normal",
+      "magnitude": 0.09756
+    },
+    {
+      "feature": "feat_roc_P1_FT02Z",
+      "shap_value": -0.09084,
+      "direction": "toward normal",
+      "magnitude": 0.09084
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.07595,
+      "direction": "toward normal",
+      "magnitude": 0.07595
+    }
+  ],
+  "1488": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.12276,
+      "direction": "toward normal",
+      "magnitude": 0.12276
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11454,
+      "direction": "toward normal",
+      "magnitude": 0.11454
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10891,
+      "direction": "toward normal",
+      "magnitude": 0.10891
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.09037,
+      "direction": "toward normal",
+      "magnitude": 0.09037
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.07144,
+      "direction": "toward normal",
+      "magnitude": 0.07144
+    },
+    {
+      "feature": "feat_P1_PIT01_std10",
+      "shap_value": -0.06775,
+      "direction": "toward normal",
+      "magnitude": 0.06775
+    }
+  ],
+  "1489": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.12046,
+      "direction": "toward normal",
+      "magnitude": 0.12046
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11451,
+      "direction": "toward normal",
+      "magnitude": 0.11451
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09314,
+      "direction": "toward normal",
+      "magnitude": 0.09314
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.08949,
+      "direction": "toward normal",
+      "magnitude": 0.08949
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06269,
+      "direction": "toward normal",
+      "magnitude": 0.06269
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.0619,
+      "direction": "toward normal",
+      "magnitude": 0.0619
+    }
+  ],
+  "1490": [
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.12094,
+      "direction": "toward normal",
+      "magnitude": 0.12094
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11309,
+      "direction": "toward normal",
+      "magnitude": 0.11309
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10049,
+      "direction": "toward normal",
+      "magnitude": 0.10049
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.0682,
+      "direction": "toward normal",
+      "magnitude": 0.0682
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.06527,
+      "direction": "toward normal",
+      "magnitude": 0.06527
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.06458,
+      "direction": "toward normal",
+      "magnitude": 0.06458
+    }
+  ],
+  "1491": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11317,
+      "direction": "toward normal",
+      "magnitude": 0.11317
+    },
+    {
+      "feature": "feat_P1_TIT02_std10",
+      "shap_value": -0.11022,
+      "direction": "toward normal",
+      "magnitude": 0.11022
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09931,
+      "direction": "toward normal",
+      "magnitude": 0.09931
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09649,
+      "direction": "toward normal",
+      "magnitude": 0.09649
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.06907,
+      "direction": "toward normal",
+      "magnitude": 0.06907
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06619,
+      "direction": "toward normal",
+      "magnitude": 0.06619
+    }
+  ],
+  "1492": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12523,
+      "direction": "toward normal",
+      "magnitude": 0.12523
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10736,
+      "direction": "toward normal",
+      "magnitude": 0.10736
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.07577,
+      "direction": "toward normal",
+      "magnitude": 0.07577
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.07136,
+      "direction": "toward normal",
+      "magnitude": 0.07136
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.07104,
+      "direction": "toward normal",
+      "magnitude": 0.07104
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.06662,
+      "direction": "toward normal",
+      "magnitude": 0.06662
+    }
+  ],
+  "1493": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12437,
+      "direction": "toward normal",
+      "magnitude": 0.12437
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10068,
+      "direction": "toward normal",
+      "magnitude": 0.10068
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.07417,
+      "direction": "toward normal",
+      "magnitude": 0.07417
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.07034,
+      "direction": "toward normal",
+      "magnitude": 0.07034
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.07012,
+      "direction": "toward normal",
+      "magnitude": 0.07012
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.06389,
+      "direction": "toward normal",
+      "magnitude": 0.06389
+    }
+  ],
+  "1494": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12419,
+      "direction": "toward normal",
+      "magnitude": 0.12419
+    },
+    {
+      "feature": "feat_roc_P1_FT02Z",
+      "shap_value": -0.10055,
+      "direction": "toward normal",
+      "magnitude": 0.10055
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.09754,
+      "direction": "toward normal",
+      "magnitude": 0.09754
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09205,
+      "direction": "toward normal",
+      "magnitude": 0.09205
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.07411,
+      "direction": "toward normal",
+      "magnitude": 0.07411
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06933,
+      "direction": "toward normal",
+      "magnitude": 0.06933
+    }
+  ],
+  "1495": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12648,
+      "direction": "toward normal",
+      "magnitude": 0.12648
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.10674,
+      "direction": "toward normal",
+      "magnitude": 0.10674
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.0792,
+      "direction": "toward normal",
+      "magnitude": 0.0792
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.06921,
+      "direction": "toward normal",
+      "magnitude": 0.06921
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.0672,
+      "direction": "toward normal",
+      "magnitude": 0.0672
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.0617,
+      "direction": "toward normal",
+      "magnitude": 0.0617
+    }
+  ],
+  "1496": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12704,
+      "direction": "toward normal",
+      "magnitude": 0.12704
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.09316,
+      "direction": "toward normal",
+      "magnitude": 0.09316
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09078,
+      "direction": "toward normal",
+      "magnitude": 0.09078
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.08967,
+      "direction": "toward normal",
+      "magnitude": 0.08967
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08026,
+      "direction": "toward normal",
+      "magnitude": 0.08026
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.06916,
+      "direction": "toward normal",
+      "magnitude": 0.06916
+    }
+  ],
+  "1497": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12835,
+      "direction": "toward normal",
+      "magnitude": 0.12835
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09344,
+      "direction": "toward normal",
+      "magnitude": 0.09344
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.08616,
+      "direction": "toward normal",
+      "magnitude": 0.08616
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.072,
+      "direction": "toward normal",
+      "magnitude": 0.072
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.06722,
+      "direction": "toward normal",
+      "magnitude": 0.06722
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06445,
+      "direction": "toward normal",
+      "magnitude": 0.06445
+    }
+  ],
+  "1498": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12418,
+      "direction": "toward normal",
+      "magnitude": 0.12418
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09514,
+      "direction": "toward normal",
+      "magnitude": 0.09514
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08932,
+      "direction": "toward normal",
+      "magnitude": 0.08932
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.08457,
+      "direction": "toward normal",
+      "magnitude": 0.08457
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.07163,
+      "direction": "toward normal",
+      "magnitude": 0.07163
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06979,
+      "direction": "toward normal",
+      "magnitude": 0.06979
+    }
+  ],
+  "1499": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12405,
+      "direction": "toward normal",
+      "magnitude": 0.12405
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10072,
+      "direction": "toward normal",
+      "magnitude": 0.10072
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08922,
+      "direction": "toward normal",
+      "magnitude": 0.08922
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.08625,
+      "direction": "toward normal",
+      "magnitude": 0.08625
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.07246,
+      "direction": "toward normal",
+      "magnitude": 0.07246
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.06838,
+      "direction": "toward normal",
+      "magnitude": 0.06838
+    }
+  ],
+  "1500": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12381,
+      "direction": "toward normal",
+      "magnitude": 0.12381
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.10101,
+      "direction": "toward normal",
+      "magnitude": 0.10101
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.09182,
+      "direction": "toward normal",
+      "magnitude": 0.09182
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.08148,
+      "direction": "toward normal",
+      "magnitude": 0.08148
+    },
+    {
+      "feature": "feat_P1_TIT02_std30",
+      "shap_value": -0.06792,
+      "direction": "toward normal",
+      "magnitude": 0.06792
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06608,
+      "direction": "toward normal",
+      "magnitude": 0.06608
+    }
+  ],
+  "1501": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.1234,
+      "direction": "toward normal",
+      "magnitude": 0.1234
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.10546,
+      "direction": "toward normal",
+      "magnitude": 0.10546
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10448,
+      "direction": "toward normal",
+      "magnitude": 0.10448
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08566,
+      "direction": "toward normal",
+      "magnitude": 0.08566
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.07232,
+      "direction": "toward normal",
+      "magnitude": 0.07232
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.07014,
+      "direction": "toward normal",
+      "magnitude": 0.07014
+    }
+  ],
+  "1502": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12511,
+      "direction": "toward normal",
+      "magnitude": 0.12511
+    },
+    {
+      "feature": "feat_roc_P1_FT02Z",
+      "shap_value": -0.1108,
+      "direction": "toward normal",
+      "magnitude": 0.1108
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.107,
+      "direction": "toward normal",
+      "magnitude": 0.107
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09814,
+      "direction": "toward normal",
+      "magnitude": 0.09814
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08424,
+      "direction": "toward normal",
+      "magnitude": 0.08424
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.07468,
+      "direction": "toward normal",
+      "magnitude": 0.07468
+    }
+  ],
+  "1503": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12306,
+      "direction": "toward normal",
+      "magnitude": 0.12306
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.11058,
+      "direction": "toward normal",
+      "magnitude": 0.11058
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09932,
+      "direction": "toward normal",
+      "magnitude": 0.09932
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.08873,
+      "direction": "toward normal",
+      "magnitude": 0.08873
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08543,
+      "direction": "toward normal",
+      "magnitude": 0.08543
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.07929,
+      "direction": "toward normal",
+      "magnitude": 0.07929
+    }
+  ],
+  "1504": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12504,
+      "direction": "toward normal",
+      "magnitude": 0.12504
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09884,
+      "direction": "toward normal",
+      "magnitude": 0.09884
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.08273,
+      "direction": "toward normal",
+      "magnitude": 0.08273
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08086,
+      "direction": "toward normal",
+      "magnitude": 0.08086
+    },
+    {
+      "feature": "feat_P1_PIT01_std30",
+      "shap_value": -0.07255,
+      "direction": "toward normal",
+      "magnitude": 0.07255
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06808,
+      "direction": "toward normal",
+      "magnitude": 0.06808
+    }
+  ],
+  "1505": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12565,
+      "direction": "toward normal",
+      "magnitude": 0.12565
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.0978,
+      "direction": "toward normal",
+      "magnitude": 0.0978
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.0975,
+      "direction": "toward normal",
+      "magnitude": 0.0975
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06774,
+      "direction": "toward normal",
+      "magnitude": 0.06774
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06469,
+      "direction": "toward normal",
+      "magnitude": 0.06469
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06028,
+      "direction": "toward normal",
+      "magnitude": 0.06028
+    }
+  ],
+  "1506": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12254,
+      "direction": "toward normal",
+      "magnitude": 0.12254
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10103,
+      "direction": "toward normal",
+      "magnitude": 0.10103
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.10015,
+      "direction": "toward normal",
+      "magnitude": 0.10015
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08876,
+      "direction": "toward normal",
+      "magnitude": 0.08876
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06969,
+      "direction": "toward normal",
+      "magnitude": 0.06969
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0625,
+      "direction": "toward normal",
+      "magnitude": 0.0625
+    }
+  ],
+  "1507": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12641,
+      "direction": "toward normal",
+      "magnitude": 0.12641
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.0982,
+      "direction": "toward normal",
+      "magnitude": 0.0982
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09775,
+      "direction": "toward normal",
+      "magnitude": 0.09775
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08998,
+      "direction": "toward normal",
+      "magnitude": 0.08998
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06582,
+      "direction": "toward normal",
+      "magnitude": 0.06582
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.0585,
+      "direction": "toward normal",
+      "magnitude": 0.0585
+    }
+  ],
+  "1508": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12453,
+      "direction": "toward normal",
+      "magnitude": 0.12453
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.10747,
+      "direction": "toward normal",
+      "magnitude": 0.10747
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.10093,
+      "direction": "toward normal",
+      "magnitude": 0.10093
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.08852,
+      "direction": "toward normal",
+      "magnitude": 0.08852
+    },
+    {
+      "feature": "feat_P1_TIT02_std60",
+      "shap_value": -0.06813,
+      "direction": "toward normal",
+      "magnitude": 0.06813
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.06117,
+      "direction": "toward normal",
+      "magnitude": 0.06117
+    }
+  ],
+  "1512": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11759,
+      "direction": "toward normal",
+      "magnitude": 0.11759
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.11725,
+      "direction": "toward normal",
+      "magnitude": 0.11725
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.09601,
+      "direction": "toward normal",
+      "magnitude": 0.09601
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09373,
+      "direction": "toward normal",
+      "magnitude": 0.09373
+    },
+    {
+      "feature": "feat_valve_P1_FCV01D",
+      "shap_value": -0.08578,
+      "direction": "toward normal",
+      "magnitude": 0.08578
+    },
+    {
+      "feature": "P1_PCV02Z",
+      "shap_value": -0.05724,
+      "direction": "toward normal",
+      "magnitude": 0.05724
+    }
+  ],
+  "1517": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.13683,
+      "direction": "toward normal",
+      "magnitude": 0.13683
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12657,
+      "direction": "toward normal",
+      "magnitude": 0.12657
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09478,
+      "direction": "toward normal",
+      "magnitude": 0.09478
+    },
+    {
+      "feature": "feat_P1_PIT01_std60",
+      "shap_value": -0.07395,
+      "direction": "toward normal",
+      "magnitude": 0.07395
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06904,
+      "direction": "toward normal",
+      "magnitude": 0.06904
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.06791,
+      "direction": "toward normal",
+      "magnitude": 0.06791
+    }
+  ],
+  "1518": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.18361,
+      "direction": "toward normal",
+      "magnitude": 0.18361
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12932,
+      "direction": "toward normal",
+      "magnitude": 0.12932
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.12067,
+      "direction": "toward normal",
+      "magnitude": 0.12067
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09516,
+      "direction": "toward normal",
+      "magnitude": 0.09516
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09184,
+      "direction": "toward normal",
+      "magnitude": 0.09184
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.0693,
+      "direction": "toward normal",
+      "magnitude": 0.0693
+    }
+  ],
+  "1519": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.1791,
+      "direction": "toward normal",
+      "magnitude": 0.1791
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.14207,
+      "direction": "toward normal",
+      "magnitude": 0.14207
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12626,
+      "direction": "toward normal",
+      "magnitude": 0.12626
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.092,
+      "direction": "toward normal",
+      "magnitude": 0.092
+    },
+    {
+      "feature": "feat_roc_P1_FT02Z",
+      "shap_value": -0.08309,
+      "direction": "toward normal",
+      "magnitude": 0.08309
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.07747,
+      "direction": "toward normal",
+      "magnitude": 0.07747
+    }
+  ],
+  "1520": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.17707,
+      "direction": "toward normal",
+      "magnitude": 0.17707
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.13082,
+      "direction": "toward normal",
+      "magnitude": 0.13082
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11353,
+      "direction": "toward normal",
+      "magnitude": 0.11353
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10726,
+      "direction": "toward normal",
+      "magnitude": 0.10726
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.10545,
+      "direction": "toward normal",
+      "magnitude": 0.10545
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09394,
+      "direction": "toward normal",
+      "magnitude": 0.09394
+    }
+  ],
+  "1521": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.13399,
+      "direction": "toward normal",
+      "magnitude": 0.13399
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12541,
+      "direction": "toward normal",
+      "magnitude": 0.12541
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.11401,
+      "direction": "toward normal",
+      "magnitude": 0.11401
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.09733,
+      "direction": "toward normal",
+      "magnitude": 0.09733
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.08909,
+      "direction": "toward normal",
+      "magnitude": 0.08909
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.07994,
+      "direction": "toward normal",
+      "magnitude": 0.07994
+    }
+  ],
+  "1522": [
+    {
+      "feature": "feat_roc_P2_SIT01",
+      "shap_value": -0.14966,
+      "direction": "toward normal",
+      "magnitude": 0.14966
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12402,
+      "direction": "toward normal",
+      "magnitude": 0.12402
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.10644,
+      "direction": "toward normal",
+      "magnitude": 0.10644
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.10084,
+      "direction": "toward normal",
+      "magnitude": 0.10084
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.09644,
+      "direction": "toward normal",
+      "magnitude": 0.09644
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.09564,
+      "direction": "toward normal",
+      "magnitude": 0.09564
+    }
+  ],
+  "1523": [
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.12071,
+      "direction": "toward normal",
+      "magnitude": 0.12071
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11561,
+      "direction": "toward normal",
+      "magnitude": 0.11561
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10029,
+      "direction": "toward normal",
+      "magnitude": 0.10029
+    },
+    {
+      "feature": "P2_VIBTR03",
+      "shap_value": -0.09711,
+      "direction": "toward normal",
+      "magnitude": 0.09711
+    },
+    {
+      "feature": "feat_roc_P2_SIT01",
+      "shap_value": -0.08986,
+      "direction": "toward normal",
+      "magnitude": 0.08986
+    },
+    {
+      "feature": "P1_PIT01",
+      "shap_value": -0.08906,
+      "direction": "toward normal",
+      "magnitude": 0.08906
+    }
+  ],
+  "1524": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.21718,
+      "direction": "toward normal",
+      "magnitude": 0.21718
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11966,
+      "direction": "toward normal",
+      "magnitude": 0.11966
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10261,
+      "direction": "toward normal",
+      "magnitude": 0.10261
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.07932,
+      "direction": "toward normal",
+      "magnitude": 0.07932
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.06402,
+      "direction": "toward normal",
+      "magnitude": 0.06402
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.06303,
+      "direction": "toward normal",
+      "magnitude": 0.06303
+    }
+  ],
+  "1525": [
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11969,
+      "direction": "toward normal",
+      "magnitude": 0.11969
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10469,
+      "direction": "toward normal",
+      "magnitude": 0.10469
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.08524,
+      "direction": "toward normal",
+      "magnitude": 0.08524
+    },
+    {
+      "feature": "feat_valve_P1_PCV02D",
+      "shap_value": -0.06927,
+      "direction": "toward normal",
+      "magnitude": 0.06927
+    },
+    {
+      "feature": "P1_LCV01D",
+      "shap_value": -0.06761,
+      "direction": "toward normal",
+      "magnitude": 0.06761
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.06517,
+      "direction": "toward normal",
+      "magnitude": 0.06517
+    }
+  ],
+  "1530": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.16561,
+      "direction": "toward normal",
+      "magnitude": 0.16561
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.12705,
+      "direction": "toward normal",
+      "magnitude": 0.12705
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.1152,
+      "direction": "toward normal",
+      "magnitude": 0.1152
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10499,
+      "direction": "toward normal",
+      "magnitude": 0.10499
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.09328,
+      "direction": "toward normal",
+      "magnitude": 0.09328
+    },
+    {
+      "feature": "feat_P1_PIT01_max30",
+      "shap_value": -0.08916,
+      "direction": "toward normal",
+      "magnitude": 0.08916
+    }
+  ],
+  "1531": [
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.19273,
+      "direction": "toward normal",
+      "magnitude": 0.19273
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.15825,
+      "direction": "toward normal",
+      "magnitude": 0.15825
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.13254,
+      "direction": "toward normal",
+      "magnitude": 0.13254
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.11691,
+      "direction": "toward normal",
+      "magnitude": 0.11691
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10838,
+      "direction": "toward normal",
+      "magnitude": 0.10838
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.10313,
+      "direction": "toward normal",
+      "magnitude": 0.10313
+    }
+  ],
+  "1534": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.19263,
+      "direction": "toward normal",
+      "magnitude": 0.19263
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.15522,
+      "direction": "toward normal",
+      "magnitude": 0.15522
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.12092,
+      "direction": "toward normal",
+      "magnitude": 0.12092
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.1122,
+      "direction": "toward normal",
+      "magnitude": 0.1122
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.10867,
+      "direction": "toward normal",
+      "magnitude": 0.10867
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.09513,
+      "direction": "toward normal",
+      "magnitude": 0.09513
+    }
+  ],
+  "1535": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.19131,
+      "direction": "toward normal",
+      "magnitude": 0.19131
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.15101,
+      "direction": "toward normal",
+      "magnitude": 0.15101
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.12075,
+      "direction": "toward normal",
+      "magnitude": 0.12075
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.1207,
+      "direction": "toward normal",
+      "magnitude": 0.1207
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.11139,
+      "direction": "toward normal",
+      "magnitude": 0.11139
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.09535,
+      "direction": "toward normal",
+      "magnitude": 0.09535
+    }
+  ],
+  "1537": [
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.19726,
+      "direction": "toward normal",
+      "magnitude": 0.19726
+    },
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.14589,
+      "direction": "toward normal",
+      "magnitude": 0.14589
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.1207,
+      "direction": "toward normal",
+      "magnitude": 0.1207
+    },
+    {
+      "feature": "feat_P1_FT03_std10",
+      "shap_value": -0.10105,
+      "direction": "toward normal",
+      "magnitude": 0.10105
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.09662,
+      "direction": "toward normal",
+      "magnitude": 0.09662
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.09519,
+      "direction": "toward normal",
+      "magnitude": 0.09519
+    }
+  ],
+  "1538": [
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.17314,
+      "direction": "toward normal",
+      "magnitude": 0.17314
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.16848,
+      "direction": "toward normal",
+      "magnitude": 0.16848
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.15895,
+      "direction": "toward normal",
+      "magnitude": 0.15895
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.12386,
+      "direction": "toward normal",
+      "magnitude": 0.12386
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.11042,
+      "direction": "toward normal",
+      "magnitude": 0.11042
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.10194,
+      "direction": "toward normal",
+      "magnitude": 0.10194
+    }
+  ],
+  "1539": [
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.18245,
+      "direction": "toward normal",
+      "magnitude": 0.18245
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.16137,
+      "direction": "toward normal",
+      "magnitude": 0.16137
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.12426,
+      "direction": "toward normal",
+      "magnitude": 0.12426
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.1162,
+      "direction": "toward normal",
+      "magnitude": 0.1162
+    },
+    {
+      "feature": "P3_PIT01",
+      "shap_value": -0.09847,
+      "direction": "toward normal",
+      "magnitude": 0.09847
+    },
+    {
+      "feature": "feat_valve_P1_PCV01D",
+      "shap_value": -0.09831,
+      "direction": "toward normal",
+      "magnitude": 0.09831
+    }
+  ],
+  "1541": [
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.18691,
+      "direction": "toward normal",
+      "magnitude": 0.18691
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.18118,
+      "direction": "toward normal",
+      "magnitude": 0.18118
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.16765,
+      "direction": "toward normal",
+      "magnitude": 0.16765
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.12368,
+      "direction": "toward normal",
+      "magnitude": 0.12368
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.11452,
+      "direction": "toward normal",
+      "magnitude": 0.11452
+    },
+    {
+      "feature": "feat_P1_FT01_max30",
+      "shap_value": -0.09754,
+      "direction": "toward normal",
+      "magnitude": 0.09754
+    }
+  ],
+  "1542": [
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.18042,
+      "direction": "toward normal",
+      "magnitude": 0.18042
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.15978,
+      "direction": "toward normal",
+      "magnitude": 0.15978
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.13368,
+      "direction": "toward normal",
+      "magnitude": 0.13368
+    },
+    {
+      "feature": "feat_P1_FT01_max30",
+      "shap_value": -0.11295,
+      "direction": "toward normal",
+      "magnitude": 0.11295
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10629,
+      "direction": "toward normal",
+      "magnitude": 0.10629
+    },
+    {
+      "feature": "feat_P1_FT01_max10",
+      "shap_value": -0.09633,
+      "direction": "toward normal",
+      "magnitude": 0.09633
+    }
+  ],
+  "1544": [
+    {
+      "feature": "feat_P1_FT01_std30",
+      "shap_value": -0.19879,
+      "direction": "toward normal",
+      "magnitude": 0.19879
+    },
+    {
+      "feature": "feat_roc_P1_PIT01",
+      "shap_value": -0.18219,
+      "direction": "toward normal",
+      "magnitude": 0.18219
+    },
+    {
+      "feature": "feat_P1_FT01_std10",
+      "shap_value": -0.16318,
+      "direction": "toward normal",
+      "magnitude": 0.16318
+    },
+    {
+      "feature": "feat_P1_FT01Z_std10",
+      "shap_value": -0.13749,
+      "direction": "toward normal",
+      "magnitude": 0.13749
+    },
+    {
+      "feature": "feat_P1_FT01_max30",
+      "shap_value": -0.10873,
+      "direction": "toward normal",
+      "magnitude": 0.10873
+    },
+    {
+      "feature": "feat_P1_PIT01_mean60",
+      "shap_value": -0.10361,
+      "direction": "toward normal",
+      "magnitude": 0.10361
+    }
+  ]
+}
