@@ -37,11 +37,13 @@ Raw telemetry is expanded into **221 engineered features**, including:
 
 ### Anomaly Timeline & Correlation
 *The dashboard provides a real-time view of anomaly clusters across different control loops.*
-![Anomaly Timeline](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/screenshots/anomaly_timeline.png)
+![Anomaly Timeline](https://raw.githubusercontent.com/jynxora/HAI-Anomaly-Detection-System/blob/main/screenshots/Screenshot%202026-04-14%20184955.png)
+![Anomaly Timeline](https://raw.githubusercontent.com/jynxora/HAI-Anomaly-Detection-System/blob/main/screenshots/Screenshot%202026-04-14%20185007.png)
 
 ### Sensor Contribution (SHAP)
 *SHAP values identify the "Root Cause" sensors during a detected attack.*
-![SHAP Summary](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/screenshots/shap_summary.png)
+![Anomaly Timeline](https://raw.githubusercontent.com/jynxora/HAI-Anomaly-Detection-System/blob/main/screenshots/Screenshot%202026-04-14%20192929.png)
+![Anomaly Timeline](https://raw.githubusercontent.com/jynxora/HAI-Anomaly-Detection-System/blob/main/screenshots/Screenshot%202026-04-14%20192857.png)
 
 ---
 
