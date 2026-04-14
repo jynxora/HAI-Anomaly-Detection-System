@@ -77,8 +77,9 @@ project_root/
 ## 6. Installation & Setup
 
 Step 1: Clone and Prepare Environment
-```git clone <your-repository-link>
-cd <project-folder>
+```
+git clone https://github.com/jynxora/HAI-Anomaly-Detection-System/tree/main/HAI-Dashboard
+cd HAI-Dashboard
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
