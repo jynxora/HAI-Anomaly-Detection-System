@@ -98,7 +98,7 @@ To run the Flask Dashboard:
 python app.py
 ```
 7. How to Use
-Health Check: Visit `http://localhost:8000/health` to confirm models are loaded.
+Health Check: Visit `http://127.0.0.1:5000/health` to confirm models are loaded.
 
 Upload Data: Send a POST request with a HAI dataset CSV to the /upload endpoint.
 
