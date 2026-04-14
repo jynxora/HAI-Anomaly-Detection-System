@@ -1,0 +1,1624 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signal·Watch — Team Diamonds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Fraunces:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+    <style>
+      :root {
+        --bg: #0e0b09;
+        --s1: #161009;
+        --s2: #1e1710;
+        --s3: #281f15;
+        --s4: #32261a;
+        --border: rgba(194, 103, 58, 0.08);
+        --border2: rgba(194, 103, 58, 0.18);
+        --border3: rgba(194, 103, 58, 0.35);
+        --clay: #c2673a;
+        --clay-lt: #d4845b;
+        --clay-dk: #8f4522;
+        --clay-dim: rgba(194, 103, 58, 0.1);
+        --ash: #ede4db;
+        --ash2: #b09c8e;
+        --ash3: #6e5c50;
+        --ash4: #3a2d22;
+        --danger: #c04545;
+        --warn: #c08030;
+        --ok: #5c8c60;
+        --mono: "IBM Plex Mono", monospace;
+        --serif: "Fraunces", serif;
+        --sans: "DM Sans", sans-serif;
+        --radius: 14px;
+        --tr: 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: var(--bg);
+        color: var(--ash);
+        font-family: var(--sans);
+        font-weight: 300;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(194, 103, 58, 0.018) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(194, 103, 58, 0.018) 1px, transparent 1px);
+        background-size: 52px 52px;
+        pointer-events: none;
+        z-index: 0;
+      }
+      body::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: radial-gradient(
+          ellipse 60% 40% at 80% 10%,
+          rgba(194, 103, 58, 0.04) 0%,
+          transparent 70%
+        );
+        pointer-events: none;
+        z-index: 0;
+      }
+      #wrap {
+        position: relative;
+        z-index: 1;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 32px 80px;
+      }
+
+      /* Header */
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 28px 0 24px;
+        border-bottom: 1px solid var(--border);
+      }
+      .wordmark {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+      }
+      .wordmark h1 {
+        font-family: var(--serif);
+        font-size: 21px;
+        font-weight: 300;
+        font-style: italic;
+        color: var(--ash);
+        letter-spacing: 0.01em;
+        line-height: 1;
+      }
+      .wordmark h1 em {
+        font-style: normal;
+        color: var(--clay);
+      }
+      .wordmark small {
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--ash3);
+      }
+      .status-pill {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        border: 1px solid var(--border2);
+        border-radius: 100px;
+        padding: 6px 14px;
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--ash2);
+        background: var(--s2);
+        transition: all var(--tr);
+      }
+      .status-pill.active {
+        border-color: var(--border3);
+        color: var(--clay);
+      }
+      .status-pill.error {
+        border-color: rgba(192, 69, 69, 0.35);
+        color: #d07070;
+      }
+      .dot-live {
+        width: 6px;
+        height: 6px;
+        background: var(--clay);
+        border-radius: 50%;
+        animation: breathe 2.6s ease-in-out infinite;
+      }
+      @keyframes breathe {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.3;
+          transform: scale(0.7);
+        }
+      }
+
+      /* Upload zone */
+      #upload-zone {
+        padding: 24px 0 0;
+        overflow: hidden;
+        transition:
+          max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+          opacity 0.4s ease,
+          padding 0.4s ease;
+        max-height: 400px;
+        opacity: 1;
+      }
+      #upload-zone.collapsed {
+        max-height: 0;
+        opacity: 0;
+        padding: 0;
+        pointer-events: none;
+      }
+      .drop {
+        border: 1px dashed var(--border2);
+        border-radius: var(--radius);
+        padding: 36px 32px;
+        text-align: center;
+        background: var(--s1);
+        cursor: pointer;
+        transition:
+          border-color var(--tr),
+          background var(--tr),
+          transform var(--tr);
+        position: relative;
+        margin-bottom: 14px;
+      }
+      .drop:hover,
+      .drop.over {
+        border-color: var(--border3);
+        background: var(--s2);
+        border-style: solid;
+        transform: translateY(-1px);
+      }
+      .drop.filled {
+        border-color: var(--clay-dk);
+        border-style: solid;
+        background: rgba(194, 103, 58, 0.05);
+      }
+      .drop input {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        cursor: pointer;
+      }
+      .drop-icon {
+        width: 40px;
+        height: 40px;
+        background: var(--clay-dim);
+        border: 1px solid var(--border2);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 12px;
+      }
+      .drop-icon svg {
+        width: 18px;
+        height: 18px;
+        stroke: var(--clay);
+        fill: none;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .drop h2 {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--ash);
+        margin-bottom: 4px;
+      }
+      .drop p {
+        font-size: 11px;
+        color: var(--ash3);
+        font-family: var(--mono);
+      }
+      .file-row {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--clay);
+        margin-top: 10px;
+      }
+      .file-row.on {
+        display: flex;
+      }
+      .file-row span {
+        color: var(--ash3);
+      }
+      .run-btn {
+        width: 100%;
+        padding: 14px;
+        background: var(--clay);
+        color: #180e06;
+        border: none;
+        border-radius: 11px;
+        font-family: var(--sans);
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        transition:
+          background var(--tr),
+          transform var(--tr),
+          box-shadow var(--tr);
+        letter-spacing: 0.02em;
+      }
+      .run-btn:hover:not(:disabled) {
+        background: var(--clay-lt);
+        transform: translateY(-1px);
+        box-shadow: 0 6px 24px rgba(194, 103, 58, 0.22);
+      }
+      .run-btn:disabled {
+        background: var(--s3);
+        color: var(--ash3);
+        cursor: not-allowed;
+      }
+      .run-btn .spin {
+        width: 14px;
+        height: 14px;
+        border: 2px solid rgba(24, 14, 6, 0.2);
+        border-top-color: #180e06;
+        border-radius: 50%;
+        animation: spin 0.65s linear infinite;
+        display: none;
+      }
+      .run-btn.going .spin {
+        display: block;
+      }
+      .run-btn.going .lbl {
+        opacity: 0.6;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* File badge */
+      #file-badge {
+        display: none;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 18px;
+        background: var(--s1);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        margin: 20px 0 0;
+        font-family: var(--mono);
+        font-size: 11px;
+        animation: fadeUp 0.4s ease;
+      }
+      #file-badge.on {
+        display: flex;
+      }
+      .badge-ico {
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
+        background: rgba(92, 140, 96, 0.1);
+        border: 1px solid rgba(92, 140, 96, 0.25);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .badge-ico svg {
+        stroke: #5c8c60;
+        fill: none;
+        width: 14px;
+        stroke-width: 2.2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      #badge-name {
+        color: var(--ash2);
+        font-weight: 500;
+      }
+      #badge-size {
+        color: var(--ash3);
+      }
+      .badge-sep {
+        color: var(--ash4);
+        margin: 0 2px;
+      }
+      .reupload-btn {
+        margin-left: auto;
+        padding: 4px 12px;
+        background: transparent;
+        border: 1px solid var(--border2);
+        border-radius: 100px;
+        color: var(--ash3);
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all var(--tr);
+      }
+      .reupload-btn:hover {
+        border-color: var(--border3);
+        color: var(--clay);
+      }
+
+      /* Error */
+      .err {
+        background: rgba(192, 69, 69, 0.08);
+        border: 1px solid rgba(192, 69, 69, 0.22);
+        border-radius: 10px;
+        padding: 11px 15px;
+        font-size: 11px;
+        font-family: var(--mono);
+        color: #d07070;
+        margin-top: 14px;
+        display: none;
+        animation: fadeUp 0.3s ease;
+      }
+      .err.on {
+        display: block;
+      }
+
+      /* Results */
+      #res {
+        display: none;
+        margin-top: 28px;
+      }
+      #res.on {
+        display: block;
+        animation: fadeUp 0.5s ease;
+      }
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Rule */
+      .rule {
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--ash3);
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .rule::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
+
+      /* Stat cards */
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+      @media (max-width: 860px) {
+        .stats {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      .sc {
+        background: var(--s1);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 20px 20px 18px;
+        position: relative;
+        overflow: hidden;
+        transition:
+          border-color var(--tr),
+          transform var(--tr);
+        animation: fadeUp 0.5s ease both;
+      }
+      .sc:nth-child(1) {
+        animation-delay: 0.05s;
+      }
+      .sc:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+      .sc:nth-child(3) {
+        animation-delay: 0.15s;
+      }
+      .sc:nth-child(4) {
+        animation-delay: 0.2s;
+      }
+      .sc:hover {
+        border-color: var(--border2);
+        transform: translateY(-2px);
+      }
+      .sc-bar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        border-radius: 0 2px 2px 0;
+      }
+      .sc .lbl {
+        font-size: 9px;
+        font-family: var(--mono);
+        color: var(--ash3);
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        margin-bottom: 10px;
+      }
+      .sc .val {
+        font-family: var(--serif);
+        font-size: 36px;
+        font-weight: 300;
+        color: var(--ash);
+        line-height: 1;
+        margin-bottom: 4px;
+      }
+      .sc .sub {
+        font-size: 10px;
+        color: var(--ash3);
+        font-family: var(--mono);
+      }
+
+      /* Main grid */
+      .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 340px;
+        gap: 14px;
+        margin-bottom: 14px;
+      }
+      @media (max-width: 1080px) {
+        .main-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .panel {
+        background: var(--s1);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 20px;
+        animation: fadeUp 0.5s ease both;
+      }
+      .ph {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+      }
+      .pt {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--ash);
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .pt-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--clay);
+      }
+      .pb {
+        font-size: 9px;
+        font-family: var(--mono);
+        color: var(--ash3);
+        background: var(--s2);
+        border: 1px solid var(--border);
+        border-radius: 100px;
+        padding: 3px 10px;
+      }
+
+      /* Table */
+      .tscroll {
+        overflow: auto;
+        max-height: 320px;
+      }
+      .tscroll::-webkit-scrollbar {
+        width: 3px;
+      }
+      .tscroll::-webkit-scrollbar-thumb {
+        background: var(--border2);
+        border-radius: 10px;
+      }
+      table.at {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 11px;
+      }
+      table.at th {
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--ash3);
+        padding: 0 10px 10px;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+        white-space: nowrap;
+        position: sticky;
+        top: 0;
+        background: var(--s1);
+        z-index: 1;
+      }
+      table.at td {
+        padding: 9px 10px;
+        border-bottom: 1px solid var(--border);
+        font-family: var(--mono);
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      table.at tr:last-child td {
+        border-bottom: none;
+      }
+      table.at tbody tr {
+        cursor: pointer;
+        transition: background var(--tr);
+      }
+      table.at tbody tr:hover td {
+        background: rgba(194, 103, 58, 0.06);
+      }
+      table.at tbody tr.sel td {
+        background: rgba(194, 103, 58, 0.12);
+      }
+      .sbadge {
+        padding: 2px 8px;
+        border-radius: 100px;
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        font-family: var(--mono);
+      }
+      .sbadge.CRITICAL {
+        background: rgba(192, 69, 69, 0.14);
+        color: #d07878;
+        border: 1px solid rgba(192, 69, 69, 0.28);
+      }
+      .sbadge.HIGH {
+        background: rgba(192, 128, 48, 0.14);
+        color: #c89858;
+        border: 1px solid rgba(192, 128, 48, 0.28);
+      }
+      .sbadge.MEDIUM {
+        background: rgba(194, 103, 58, 0.14);
+        color: var(--clay);
+        border: 1px solid var(--border2);
+      }
+      .sbadge.LOW {
+        background: rgba(92, 140, 96, 0.1);
+        color: #80a880;
+        border: 1px solid rgba(92, 140, 96, 0.22);
+      }
+      .sbar-wrap {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .sbar {
+        height: 2px;
+        width: 48px;
+        background: var(--s4);
+        border-radius: 3px;
+        overflow: hidden;
+      }
+      .sbar-fill {
+        height: 100%;
+        border-radius: 3px;
+        background: var(--clay);
+      }
+
+      /* AI advisory panel */
+      .ai-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .ai-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .ai-ico {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+        background: var(--clay-dim);
+        border: 1px solid var(--border2);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--serif);
+        font-size: 13px;
+        color: var(--clay);
+      }
+      .ai-ttl {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--ash);
+        line-height: 1.3;
+      }
+      .ai-sub {
+        font-size: 9px;
+        font-family: var(--mono);
+        color: var(--ash3);
+        margin-top: 2px;
+      }
+      .ai-body {
+        background: var(--s2);
+        border: 1px solid var(--border);
+        border-radius: 11px;
+        padding: 14px;
+        font-size: 12px;
+        line-height: 1.85;
+        color: var(--ash2);
+        min-height: 110px;
+        flex: 1;
+        position: relative;
+        overflow: hidden;
+        transition: border-color var(--tr);
+      }
+      .ai-body.has-content {
+        border-color: var(--border2);
+      }
+      .ai-body.shimmer::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          90deg,
+          transparent 30%,
+          rgba(194, 103, 58, 0.06) 50%,
+          transparent 70%
+        );
+        background-size: 200% 100%;
+        animation: sh 1.5s infinite;
+        border-radius: 11px;
+      }
+      @keyframes sh {
+        0% {
+          background-position: 200% 0;
+        }
+        100% {
+          background-position: -200% 0;
+        }
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+      .chip {
+        font-size: 9px;
+        font-family: var(--mono);
+        padding: 3px 8px;
+        border-radius: 5px;
+        background: var(--s3);
+        color: var(--ash2);
+        border: 1px solid var(--border);
+      }
+      .meta-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+      .mtag {
+        font-size: 9px;
+        font-family: var(--mono);
+        padding: 3px 9px;
+        border-radius: 5px;
+        background: var(--clay-dim);
+        color: var(--clay);
+        border: 1px solid var(--border2);
+      }
+      .ex-btn {
+        padding: 10px;
+        background: transparent;
+        border: 1px solid var(--border2);
+        border-radius: 9px;
+        color: var(--clay);
+        font-family: var(--sans);
+        font-size: 11px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        transition: all var(--tr);
+      }
+      .ex-btn:hover:not(:disabled) {
+        background: var(--clay-dim);
+        border-color: var(--border3);
+        box-shadow: 0 4px 16px rgba(194, 103, 58, 0.12);
+      }
+      .ex-btn:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+      }
+
+      /* Bottom grid */
+      .bot-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        margin-bottom: 14px;
+      }
+      @media (max-width: 800px) {
+        .bot-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .chart-box {
+        position: relative;
+        width: 100%;
+      }
+
+      /* Loops */
+      .loops {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+      }
+      .loop-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 13px;
+        background: var(--s2);
+        border: 1px solid var(--border);
+        border-radius: 9px;
+        cursor: pointer;
+        transition: all var(--tr);
+      }
+      .loop-row:hover {
+        border-color: var(--border2);
+        transform: translateX(2px);
+      }
+      .loop-id {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        color: var(--clay);
+        min-width: 52px;
+      }
+      .loop-name {
+        font-size: 11px;
+        color: var(--ash2);
+        flex: 1;
+      }
+      .loop-bar {
+        height: 2px;
+        border-radius: 2px;
+        background: var(--clay);
+        transition: width 0.6s ease;
+      }
+      .loop-n {
+        font-size: 9px;
+        font-family: var(--mono);
+        padding: 2px 8px;
+        border-radius: 5px;
+        background: rgba(192, 69, 69, 0.1);
+        color: #c07878;
+        border: 1px solid rgba(192, 69, 69, 0.2);
+      }
+      .empty {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 40px 20px;
+      }
+      .empty p {
+        font-size: 10px;
+        font-family: var(--mono);
+        color: var(--ash3);
+      }
+
+      /* Footer */
+      .foot {
+        text-align: center;
+        padding-top: 40px;
+        font-size: 9px;
+        font-family: var(--mono);
+        letter-spacing: 0.1em;
+        color: var(--ash4);
+      }
+      ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--border2);
+        border-radius: 10px;
+      }
+
+      /* Progress overlay */
+      #progress-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        background: rgba(14, 11, 9, 0.85);
+        backdrop-filter: blur(8px);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      #progress-overlay.on {
+        display: flex;
+        animation: fadeUp 0.3s ease;
+      }
+      .prog-box {
+        background: var(--s1);
+        border: 1px solid var(--border2);
+        border-radius: 20px;
+        padding: 40px 52px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        min-width: 320px;
+      }
+      .prog-spinner {
+        width: 42px;
+        height: 42px;
+        border: 2px solid var(--border2);
+        border-top-color: var(--clay);
+        border-radius: 50%;
+        animation: spin 0.85s linear infinite;
+      }
+      .prog-title {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 19px;
+        color: var(--ash);
+        font-weight: 300;
+      }
+      .prog-sub {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--ash3);
+        letter-spacing: 0.08em;
+      }
+      .prog-steps {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        width: 100%;
+        margin-top: 4px;
+      }
+      .prog-step {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--ash3);
+        opacity: 0.3;
+        transition: opacity 0.4s ease;
+      }
+      .prog-step.active {
+        opacity: 1;
+        color: var(--clay);
+      }
+      .prog-step.done {
+        opacity: 0.55;
+        color: var(--ok);
+      }
+      .step-dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: currentColor;
+        flex-shrink: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="progress-overlay">
+      <div class="prog-box">
+        <div class="prog-spinner"></div>
+        <div class="prog-title">Analysing signals</div>
+        <div class="prog-sub" id="prog-msg">initialising…</div>
+        <div class="prog-steps">
+          <div class="prog-step" id="ps1">
+            <div class="step-dot"></div>
+            uploading CSV
+          </div>
+          <div class="prog-step" id="ps2">
+            <div class="step-dot"></div>
+            running ensemble models
+          </div>
+          <div class="prog-step" id="ps3">
+            <div class="step-dot"></div>
+            fetching anomaly records
+          </div>
+          <div class="prog-step" id="ps4">
+            <div class="step-dot"></div>
+            rendering results
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="wrap">
+      <header>
+        <div class="wordmark">
+          <h1>Signal<em>Watch</em></h1>
+          <small
+            >HAI Anomaly Detection &middot; </small
+          >
+        </div>
+        <div class="status-pill" id="status-pill">
+          <div class="dot-live"></div>
+          <span id="status-txt">awaiting data</span>
+        </div>
+      </header>
+
+      <div id="upload-zone">
+        <div class="drop" id="dz">
+          <input type="file" id="fi" accept=".csv" />
+          <div class="drop-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+              <polyline points="17 8 12 3 7 8" />
+              <line x1="12" y1="3" x2="12" y2="15" />
+            </svg>
+          </div>
+          <h2>Drop HAI sensor CSV</h2>
+          <p>multivariate time-series &middot; 50+ signals</p>
+          <div class="file-row" id="fr">
+            <svg
+              width="11"
+              height="11"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+              <polyline points="14 2 14 8 20 8" />
+            </svg>
+            <strong id="fn">—</strong><span id="fs">—</span>
+          </div>
+        </div>
+        <button class="run-btn" id="rb" disabled>
+          <div class="spin"></div>
+          <span class="lbl">Run ensemble anomaly detection</span>
+          <svg
+            width="13"
+            height="13"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+          >
+            <path d="M5 12h14" />
+            <path d="M12 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+
+      <div id="file-badge">
+        <div class="badge-ico">
+          <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" /></svg>
+        </div>
+        <span id="badge-name">—</span>
+        <span class="badge-sep">&middot;</span>
+        <span id="badge-size">—</span>
+        <button class="reupload-btn" id="reupload-btn">&#8593; new file</button>
+      </div>
+
+      <div class="err" id="eb"></div>
+
+      <div id="res">
+        <div style="height: 8px"></div>
+        <div class="rule">Detection summary</div>
+        <div class="stats">
+          <div class="sc">
+            <div class="sc-bar" style="background: var(--clay)"></div>
+            <div class="lbl">Windows scanned</div>
+            <div class="val" id="sw">—</div>
+            <div class="sub">60 s sequences</div>
+          </div>
+          <div class="sc">
+            <div class="sc-bar" style="background: var(--danger)"></div>
+            <div class="lbl">Anomalies found</div>
+            <div class="val" id="sa">—</div>
+            <div class="sub" id="srr">—</div>
+          </div>
+          <div class="sc">
+            <div class="sc-bar" style="background: var(--warn)"></div>
+            <div class="lbl">Critical events</div>
+            <div class="val" id="sc2">—</div>
+            <div class="sub">severity · critical</div>
+          </div>
+          <div class="sc">
+            <div class="sc-bar" style="background: var(--ok)"></div>
+            <div class="lbl">Top loop</div>
+            <div class="val" style="font-size: 20px" id="sl">—</div>
+            <div class="sub">most affected</div>
+          </div>
+        </div>
+
+        <div class="main-grid">
+          <div class="panel">
+            <div class="ph">
+              <div class="pt">
+                <div class="pt-dot"></div>
+                Anomaly events
+              </div>
+              <div class="pb" id="tc">0 records</div>
+            </div>
+            <div class="tscroll">
+              <table class="at">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Score</th>
+                    <th>Severity</th>
+                    <th>Loop</th>
+                    <th>Attack type</th>
+                  </tr>
+                </thead>
+                <tbody id="tb">
+                  <tr>
+                    <td colspan="5">
+                      <div class="empty"><p>no data yet</p></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel ai-panel">
+            <div class="ai-header">
+              <div class="ai-ico">&#10022;</div>
+              <div>
+                <div class="ai-ttl">AI diagnostic advisory</div>
+                <div class="ai-sub">LLM-powered root-cause analysis</div>
+              </div>
+            </div>
+            <div class="ai-body" id="ab">
+              <span
+                style="
+                  color: var(--ash3);
+                  font-family: var(--mono);
+                  font-size: 10px;
+                  line-height: 1.9;
+                "
+                >Select an anomaly row from the table<br />to generate a
+                diagnostic narrative.</span
+              >
+            </div>
+            <div class="chips" id="sch"></div>
+            <div class="meta-tags" id="mt"></div>
+            <button class="ex-btn" id="exb" disabled>
+              <span
+                style="
+                  font-family: var(--serif);
+                  font-style: italic;
+                  font-size: 13px;
+                "
+                >&#10022;</span
+              >
+              Generate diagnostic
+            </button>
+          </div>
+        </div>
+
+        <div class="bot-grid">
+          <div class="panel">
+            <div class="ph">
+              <div class="pt">
+                <div class="pt-dot" style="background: var(--ash3)"></div>
+                Score distribution
+              </div>
+            </div>
+            <div class="chart-box" style="height: 200px">
+              <canvas id="dc"></canvas>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="ph">
+              <div class="pt">
+                <div class="pt-dot" style="background: var(--warn)"></div>
+                Severity breakdown
+              </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 16px">
+              <div class="chart-box" style="height: 200px; flex: 1">
+                <canvas id="sc3"></canvas>
+              </div>
+              <div
+                id="sl2"
+                style="
+                  font-size: 10px;
+                  font-family: var(--mono);
+                  display: flex;
+                  flex-direction: column;
+                  gap: 8px;
+                  min-width: 86px;
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-bottom: 14px">
+          <div class="ph">
+            <div class="pt">
+              <div class="pt-dot" style="background: var(--clay-lt)"></div>
+              Affected control loops
+            </div>
+            <div class="pb">PCL topology</div>
+          </div>
+          <div class="loops" id="ll">
+            <div class="empty"><p>awaiting detection results</p></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="ph">
+            <div class="pt">
+              <div class="pt-dot"></div>
+              Ensemble score timeline
+            </div>
+            <div class="pb" id="tr2">—</div>
+          </div>
+          <div class="chart-box" style="height: 180px">
+            <canvas id="tlc"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot">
+        Signal&middot;Watch v2.0 &nbsp;&middot;&nbsp; HAI Security
+        Dataset &nbsp;&middot;&nbsp; LSTM-AE + Transformer-AE + Isolation Forest
+      </div>
+    </div>
+
+    <script>
+      const BASE = "http://127.0.0.1:5000";
+      const KEY = "Team_Dimonds2026_xyzdaiict";
+      const HDR = { "x-api-key": KEY, "ngrok-skip-browser-warning": "true" };
+      let file = null,
+        anomalies = [],
+        selIdx = null,
+        dInst = null,
+        sInst = null,
+        tInst = null;
+      const $ = (id) => document.getElementById(id);
+      const dz = $("dz"),
+        fi = $("fi"),
+        rb = $("rb");
+
+      fi.addEventListener(
+        "change",
+        (e) => e.target.files[0] && setFile(e.target.files[0]),
+      );
+      dz.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        dz.classList.add("over");
+      });
+      dz.addEventListener("dragleave", () => dz.classList.remove("over"));
+      dz.addEventListener("drop", (e) => {
+        e.preventDefault();
+        dz.classList.remove("over");
+        e.dataTransfer.files[0] && setFile(e.dataTransfer.files[0]);
+      });
+
+      function setFile(f) {
+        file = f;
+        dz.classList.add("filled");
+        $("fr").classList.add("on");
+        $("fn").textContent = f.name;
+        $("fs").textContent = fmt(f.size);
+        rb.disabled = false;
+      }
+      function fmt(b) {
+        return b < 1048576
+          ? (b / 1024).toFixed(1) + " KB"
+          : (b / 1048576).toFixed(1) + " MB";
+      }
+
+      $("reupload-btn").addEventListener("click", () => {
+        $("file-badge").classList.remove("on");
+        $("upload-zone").classList.remove("collapsed");
+        $("res").classList.remove("on");
+        dz.classList.remove("filled");
+        $("fr").classList.remove("on");
+        rb.disabled = true;
+        file = null;
+        fi.value = "";
+        setStatus("awaiting data", "");
+        noErr();
+      });
+
+      function setStatus(txt, state) {
+        $("status-txt").textContent = txt;
+        const p = $("status-pill");
+        p.classList.remove("active", "error");
+        if (state) p.classList.add(state);
+      }
+      function showProgress(msg) {
+        $("progress-overlay").classList.add("on");
+        $("prog-msg").textContent = msg;
+      }
+      function hideProgress() {
+        $("progress-overlay").classList.remove("on");
+      }
+      function stepDone(id) {
+        $(id).classList.remove("active");
+        $(id).classList.add("done");
+      }
+      function stepActive(id) {
+        $(id).classList.add("active");
+      }
+      function showErr(m) {
+        const e = $("eb");
+        e.textContent = "— " + m;
+        e.classList.add("on");
+        setStatus("error", "error");
+      }
+      function noErr() {
+        $("eb").classList.remove("on");
+      }
+
+      rb.addEventListener("click", async () => {
+        if (!file) return;
+        rb.disabled = true;
+        noErr();
+        showProgress("uploading dataset…");
+        stepActive("ps1");
+        setStatus("uploading…", "active");
+        try {
+          const fd = new FormData();
+          fd.append("file", file);
+          const up = await fetch(`${BASE}/upload`, {
+            method: "POST",
+            headers: HDR,
+            body: fd,
+          });
+          if (!up.ok) throw new Error(`Upload failed (${up.status})`);
+          const upd = await up.json();
+          stepDone("ps1");
+          stepActive("ps2");
+          $("prog-msg").textContent = "running ensemble models…";
+          setStatus("running models…", "active");
+          stepDone("ps2");
+          stepActive("ps3");
+          $("prog-msg").textContent = "fetching anomaly records…";
+          const ar = await fetch(`${BASE}/anomalies`, { headers: HDR });
+          if (!ar.ok) throw new Error(`Fetch failed (${ar.status})`);
+          const ad = await ar.json();
+          anomalies = Array.isArray(ad) ? ad : [];
+          stepDone("ps3");
+          stepActive("ps4");
+          $("prog-msg").textContent = "rendering results…";
+          await new Promise((r) => setTimeout(r, 250));
+          render(anomalies, upd);
+          stepDone("ps4");
+          hideProgress();
+          $("upload-zone").classList.add("collapsed");
+          $("badge-name").textContent = file.name;
+          $("badge-size").textContent = fmt(file.size);
+          $("file-badge").classList.add("on");
+          setStatus(`${anomalies.length} anomalies found`, "active");
+        } catch (e) {
+          hideProgress();
+          showErr(e.message);
+          rb.disabled = false;
+          ["ps1", "ps2", "ps3", "ps4"].forEach((id) => {
+            $(id).classList.remove("active", "done");
+          });
+        }
+      });
+
+      function render(anoms, upd) {
+        $("res").classList.add("on");
+        const total = upd?.windows_scanned ?? upd?.anomalies ?? anoms.length;
+        const crit = anoms.filter((a) => a.severity === "CRITICAL").length;
+        const rate = anoms.length
+          ? ((anoms.length / Math.max(total, 1)) * 100).toFixed(1)
+          : "0.0";
+        const lps = {};
+        anoms.forEach((a) => {
+          lps[a.top_loop] = (lps[a.top_loop] || 0) + 1;
+        });
+        const top =
+          Object.entries(lps).sort((a, b) => b[1] - a[1])[0]?.[0] ?? "—";
+        $("sw").textContent = total.toLocaleString();
+        $("sa").textContent = anoms.length.toLocaleString();
+        $("srr").textContent = rate + "% anomaly rate";
+        $("sc2").textContent = crit.toLocaleString();
+        $("sl").textContent = top;
+        $("tc").textContent = anoms.length + " records";
+        const tb = $("tb");
+        if (!anoms.length) {
+          tb.innerHTML =
+            '<tr><td colspan="5"><div class="empty"><p>no anomalies detected</p></div></td></tr>';
+        } else {
+          tb.innerHTML = anoms
+            .slice(0, 200)
+            .map(
+              (a, i) => `
+        <tr data-i="${i}" data-w="${a.window_idx}">
+          <td style="color:var(--ash3)">#${a.window_idx}</td>
+          <td><div class="sbar-wrap"><span>${(+a.anomaly_score).toFixed(3)}</span><div class="sbar"><div class="sbar-fill" style="width:${Math.min(+a.anomaly_score * 100, 100).toFixed(0)}%"></div></div></div></td>
+          <td><span class="sbadge ${a.severity}">${a.severity}</span></td>
+          <td style="color:var(--clay)">${a.top_loop ?? "—"}</td>
+          <td style="color:var(--ash3);font-size:10px">${(a.attack_type || "—").replace(/_/g, " ")}</td>
+        </tr>`,
+            )
+            .join("");
+          tb.querySelectorAll("tr").forEach((r) =>
+            r.addEventListener("click", () => pick(r, anoms)),
+          );
+        }
+        charts(anoms);
+        renderLoops(lps);
+      }
+
+      function pick(row, anoms) {
+        document
+          .querySelectorAll("table.at tbody tr")
+          .forEach((r) => r.classList.remove("sel"));
+        row.classList.add("sel");
+        const i = +row.dataset.i;
+        selIdx = +row.dataset.w;
+        const a = anoms[i];
+        $("sch").innerHTML = (a.top_sensors || [])
+          .map((s) => `<div class="chip">${s}</div>`)
+          .join("");
+        $("mt").innerHTML =
+          `<div class="mtag">window #${selIdx}</div><div class="mtag">${a.severity}</div><div class="mtag">${(a.attack_type || "").replace(/_/g, " ")}</div>`;
+        $("ab").classList.remove("has-content");
+        $("ab").innerHTML =
+          `<span style="color:var(--ash3);font-family:var(--mono);font-size:10px">Click Generate diagnostic for window #${selIdx}</span>`;
+        $("exb").disabled = false;
+      }
+
+      $("exb").addEventListener("click", async () => {
+        if (selIdx === null) return;
+        $("exb").disabled = true;
+        $("ab").classList.add("shimmer");
+        $("ab").classList.remove("has-content");
+        $("ab").innerHTML =
+          '<span style="color:var(--ash3);font-family:var(--mono);font-size:10px">generating…</span>';
+        try {
+          const r = await fetch(`${BASE}/explain`, {
+            method: "POST",
+            headers: { ...HDR, "Content-Type": "application/json" },
+            body: JSON.stringify({ window_idx: selIdx }),
+          });
+          if (!r.ok) throw new Error(`explain ${r.status}`);
+          const d = await r.json();
+          $("ab").innerHTML = d.advisory || "No advisory returned.";
+          $("ab").classList.add("has-content");
+        } catch (e) {
+          $("ab").innerHTML =
+            `<span style="color:#c07070;font-family:var(--mono);font-size:10px">${e.message}</span>`;
+        } finally {
+          $("ab").classList.remove("shimmer");
+          $("exb").disabled = false;
+        }
+      });
+
+      function charts(anoms) {
+        const scores = anoms.map((a) => +a.anomaly_score);
+        const B = 20,
+          mn = Math.min(...scores, 0),
+          mx = Math.max(...scores, 1),
+          st = (mx - mn) / B;
+        const cts = Array(B).fill(0);
+        scores.forEach((s) => {
+          const b = Math.min(Math.floor((s - mn) / st), B - 1);
+          cts[b]++;
+        });
+        const lbls = cts.map((_, i) => (mn + i * st).toFixed(2));
+        const cd = {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+        };
+        const gc = "rgba(194,103,58,0.06)";
+        const tk = {
+          color: "#6e5c50",
+          font: { family: "IBM Plex Mono", size: 8 },
+        };
+        if (dInst) dInst.destroy();
+        dInst = new Chart($("dc"), {
+          type: "bar",
+          data: {
+            labels: lbls,
+            datasets: [
+              {
+                data: cts,
+                backgroundColor: cts.map((_, i) =>
+                  i > B * 0.72 ? "rgba(192,69,69,.5)" : "rgba(194,103,58,.4)",
+                ),
+                borderWidth: 0,
+                borderRadius: 3,
+              },
+            ],
+          },
+          options: {
+            ...cd,
+            scales: {
+              x: {
+                ticks: {
+                  ...tk,
+                  autoSkip: true,
+                  maxTicksLimit: 6,
+                  maxRotation: 0,
+                },
+                grid: { color: gc },
+              },
+              y: { ticks: tk, grid: { color: gc } },
+            },
+          },
+        });
+        const sevMap = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0 };
+        anoms.forEach((a) => {
+          if (a.severity in sevMap) sevMap[a.severity]++;
+        });
+        const sevC = {
+          CRITICAL: "#c07878",
+          HIGH: "#c09858",
+          MEDIUM: "#c2673a",
+          LOW: "#80a880",
+        };
+        const sk = Object.keys(sevMap).filter((k) => sevMap[k] > 0),
+          sv = sk.map((k) => sevMap[k]);
+        if (sInst) sInst.destroy();
+        sInst = new Chart($("sc3"), {
+          type: "doughnut",
+          data: {
+            labels: sk,
+            datasets: [
+              {
+                data: sv,
+                backgroundColor: sk.map((k) => sevC[k]),
+                borderWidth: 0,
+                hoverOffset: 4,
+              },
+            ],
+          },
+          options: { ...cd, cutout: "72%" },
+        });
+        $("sl2").innerHTML = sk
+          .map(
+            (k, i) =>
+              `<div style="display:flex;align-items:center;gap:6px"><span style="width:6px;height:6px;border-radius:2px;background:${sevC[k]};flex-shrink:0"></span><span style="color:var(--ash3)">${k}</span><span style="color:var(--ash2);margin-left:auto">${sv[i]}</span></div>`,
+          )
+          .join("");
+        const step = Math.max(1, Math.floor(anoms.length / 500));
+        const tl = anoms.filter((_, i) => i % step === 0);
+        $("tr2").textContent = anoms.length
+          ? `#${anoms[0].window_idx} – #${anoms[anoms.length - 1].window_idx}`
+          : "—";
+        if (tInst) tInst.destroy();
+        tInst = new Chart($("tlc"), {
+          type: "line",
+          data: {
+            labels: tl.map((a) => a.window_idx),
+            datasets: [
+              {
+                label: "score",
+                data: tl.map((a) => +a.anomaly_score),
+                borderColor: "#8f4522",
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: true,
+                backgroundColor: "rgba(194,103,58,0.07)",
+                tension: 0.3,
+              },
+              {
+                label: "critical",
+                data: tl.map((a) =>
+                  ["CRITICAL", "HIGH"].includes(a.severity)
+                    ? +a.anomaly_score
+                    : null,
+                ),
+                borderColor: "transparent",
+                pointRadius: 3,
+                pointBackgroundColor: "#c04545",
+                pointBorderWidth: 0,
+                fill: false,
+                showLine: false,
+              },
+            ],
+          },
+          options: {
+            ...cd,
+            scales: {
+              x: {
+                ticks: { ...tk, maxTicksLimit: 8, autoSkip: true },
+                grid: { color: gc },
+              },
+              y: { ticks: tk, grid: { color: gc } },
+            },
+          },
+        });
+      }
+
+      const LOOP_D = {
+        "P1-PC": "Boiler pressure control",
+        "P1-LC": "Boiler water level",
+        "P1-FC": "Feed water flow",
+        "P1-TC": "Temperature control",
+        "P2-SC": "Turbine speed control",
+        "P3-LC": "Water treatment level",
+        P3: "Cooling water",
+        P4: "Steam turbine output",
+      };
+      function renderLoops(lc) {
+        const ll = $("ll");
+        const entries = Object.entries(lc).sort((a, b) => b[1] - a[1]);
+        if (!entries.length) {
+          ll.innerHTML = '<div class="empty"><p>no loops affected</p></div>';
+          return;
+        }
+        const max = entries[0][1];
+        ll.innerHTML = entries
+          .map(
+            ([l, n]) => `
+      <div class="loop-row">
+        <div class="loop-id">${l}</div>
+        <div style="flex:1;display:flex;flex-direction:column;gap:5px">
+          <div class="loop-name">${LOOP_D[l] || "industrial control loop"}</div>
+          <div class="loop-bar" style="width:${Math.round((n / max) * 100)}%"></div>
+        </div>
+        <div class="loop-n">${n} events</div>
+      </div>`,
+          )
+          .join("");
+      }
+    </script>
+  </body>
+</html>
