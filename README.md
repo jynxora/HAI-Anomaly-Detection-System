@@ -1,4 +1,4 @@
-# HAI-Based ICS Anomaly Detection System
+# SignalWatch: HAI-Based ICS Anomaly Detection System
 
 ## 1. Project Overview
 This project is an advanced, ensemble-based anomaly detection pipeline engineered for **Industrial Control Systems (ICS)**. It is built upon the **HAI (Hidden Anomaly Indicator)** dataset, which simulates a complex industrial environment with 80+ real-time IoT sensors across multiple process control loops.
